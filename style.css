@@ -1579,3 +1579,83 @@ body {
     width: 125px;
   }
 }
+
+/* Telegram Community Styles */
+.btn-nav-telegram {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(34, 158, 217, 0.15);
+  border: 1px solid rgba(34, 158, 217, 0.45);
+  color: #29b6f6;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-nav-telegram:hover {
+  background: rgba(34, 158, 217, 0.3);
+  border-color: #29b6f6;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 18px rgba(34, 158, 217, 0.4);
+}
+
+.btn-hbo-telegram {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  background: linear-gradient(135deg, rgba(34, 158, 217, 0.18) 0%, rgba(15, 26, 44, 0.85) 100%);
+  border: 1.5px solid rgba(34, 158, 217, 0.4);
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 16px;
+  text-decoration: none;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.btn-hbo-telegram:hover {
+  background: linear-gradient(135deg, rgba(34, 158, 217, 0.35) 0%, rgba(20, 35, 60, 0.95) 100%);
+  border-color: #29b6f6;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(34, 158, 217, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.tg-icon-bg {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #29b6f6 0%, #0288d1 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(41, 182, 246, 0.4);
+  flex-shrink: 0;
+}
+
+.btn-hbo-telegram .btn-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 2px;
+}
+
+.btn-hbo-telegram .btn-main-label {
+  font-size: 15px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.btn-hbo-telegram .btn-sub-label {
+  font-size: 11px;
+  color: #81d4fa;
+  font-weight: 500;
+}
+
