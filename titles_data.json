@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "titleEn": "Dexter",
+    "titleAr": "ديكستر",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/8dd88b1e1f69555366b5bdbad1d5d313.jpg",
+    "rating": "8.4",
+    "year": "2013"
+  },
+  {
+    "id": 2,
+    "titleEn": "Breaking Bad",
+    "titleAr": "بريكينج باد",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/d10dfae65c78f3ceb592ba5772bab973.jpg",
+    "rating": "8.5",
+    "year": "2012"
+  },
+  {
+    "id": 3,
+    "titleEn": "Game of Thrones",
+    "titleAr": "صراع العروش",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/56be9215afed5148ace0704623a0ad56.jpg",
+    "rating": "8.6",
+    "year": "2019"
+  },
+  {
+    "id": 4,
+    "titleEn": "Modern Family",
+    "titleAr": "مودرن فاميلي",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/2fb96524d94b9cc40c5fd6622ca1402f.jpg",
+    "rating": "8.7",
+    "year": "2019"
+  },
+  {
+    "id": 5,
+    "titleEn": "How I Met Your Mother",
+    "titleAr": "كيف قابلت أمكم",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/606c37c7ae5e104cbaaf0079aef51b13.jpg",
+    "rating": "8.8",
+    "year": "2013"
+  },
+  {
+    "id": 6,
+    "titleEn": "Oppenheimer",
+    "titleAr": "أوبنهايمر",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/26/35adb669c1dea2cb4658aad7f44395d5.jpg",
+    "rating": "8.9",
+    "year": "2023"
+  },
+  {
+    "id": 7,
+    "titleEn": "Stranger Things",
+    "titleAr": "أشياء غريبة",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/10/14/720bf396098beaa93141bfc5a46ccf32.jpg",
+    "rating": "9.0",
+    "year": "2016"
+  },
+  {
+    "id": 8,
+    "titleEn": "Peaky Blinders",
+    "titleAr": "بيكي بلايندرز",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/ad615363f858bc54b02e6ba7a05f90c5.jpg",
+    "rating": "9.1",
+    "year": "2022"
+  },
+  {
+    "id": 9,
+    "titleEn": "Interstellar",
+    "titleAr": "بين النجوم",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/f1aeaf2671b8b1589b5a56b40e730f1b.jpg",
+    "rating": "9.2",
+    "year": "2014"
+  },
+  {
+    "id": 10,
+    "titleEn": "The Dark Knight",
+    "titleAr": "فارس الظلام",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/03a483058245baca96fe8ecd075ea99c.jpg",
+    "rating": "9.3",
+    "year": "2008"
+  },
+  {
+    "id": 11,
+    "titleEn": "Attack on Titan",
+    "titleAr": "هجوم العمالقة",
+    "type": "أنمي",
+    "cat": "anime",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/2735770dff71711ed9ad492f40b5695d.jpg",
+    "rating": "9.4",
+    "year": "2013"
+  },
+  {
+    "id": 12,
+    "titleEn": "One Piece",
+    "titleAr": "ون بيس",
+    "type": "أنمي",
+    "cat": "anime",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/08/26/6103ed872b16352c2c1e8f2857327c34.jpg",
+    "rating": "9.5",
+    "year": "2023"
+  },
+  {
+    "id": 13,
+    "titleEn": "The Last of Us",
+    "titleAr": "ذا لاست أوف أس",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/aa3a9fa29d1fa763414bdec17fa6c9ce.jpg",
+    "rating": "9.6",
+    "year": "2025"
+  },
+  {
+    "id": 14,
+    "titleEn": "House of the Dragon",
+    "titleAr": "آل التنين",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/11/01/51573354307ea900eb608e4829f6cc90.jpg",
+    "rating": "9.7",
+    "year": "2024"
+  },
+  {
+    "id": 15,
+    "titleEn": "Better Call Saul",
+    "titleAr": "من الأفضل الاتصال بسول",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/2c39509034e99da0bec0084818136dcc.jpg",
+    "rating": "9.8",
+    "year": "2022"
+  },
+  {
+    "id": 16,
+    "titleEn": "The Boys",
+    "titleAr": "الرفاق",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/09/15/455328c7f4249ad60b5e585049de8019.jpg",
+    "rating": "8.4",
+    "year": "2019"
+  },
+  {
+    "id": 17,
+    "titleEn": "Prison Break",
+    "titleAr": "الهروب من السجن",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/03/30/aeeb26089be96a60bfce118097010f66.jpg",
+    "rating": "8.5",
+    "year": "2017"
+  },
+  {
+    "id": 18,
+    "titleEn": "Narcos",
+    "titleAr": "ناركوس",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/eaf145965da4284459db9de4574da50f.jpg",
+    "rating": "8.6",
+    "year": "2017"
+  },
+  {
+    "id": 19,
+    "titleEn": "Squid Game",
+    "titleAr": "لعبة الحبار",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/2b5460ca3e2c3617d28cba3c094d1cc6.jpg",
+    "rating": "8.7",
+    "year": "2025"
+  },
+  {
+    "id": 20,
+    "titleEn": "Inception",
+    "titleAr": "استهلال",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/ca253305a555591c771c8122e2cfd051.jpg",
+    "rating": "8.8",
+    "year": "2010"
+  },
+  {
+    "id": 21,
+    "titleEn": "Gladiator",
+    "titleAr": "المصارع",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/33ba65ca97d24f5865f9c7465b1e1abc.jpg",
+    "rating": "8.9",
+    "year": "2000"
+  },
+  {
+    "id": 22,
+    "titleEn": "Dune",
+    "titleAr": "كثيب",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/66c59e84cef3de91abbe5627515b64b2.jpg",
+    "rating": "9.0",
+    "year": "2021"
+  },
+  {
+    "id": 23,
+    "titleEn": "Spider-Man: Across the Spider-Verse",
+    "titleAr": "سبايدرمان",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/26/8e507736f832f51f4b872a587953e644.jpg",
+    "rating": "9.1",
+    "year": "2023"
+  },
+  {
+    "id": 24,
+    "titleEn": "Avengers: Endgame",
+    "titleAr": "المنتقمون: نهاية اللعبة",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/53082cdb87d11ee0e9b01c69074996c3.jpg",
+    "rating": "9.2",
+    "year": "2019"
+  },
+  {
+    "id": 25,
+    "titleEn": "The Batman",
+    "titleAr": "باتمان",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/9e4b957e7b0d98bc71d36dd88af17573.jpg",
+    "rating": "9.3",
+    "year": "2022"
+  },
+  {
+    "id": 26,
+    "titleEn": "Joker",
+    "titleAr": "الجوكر",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/26/850324eb26b7d8aded5f955be9b7d289.jpg",
+    "rating": "9.4",
+    "year": "2019"
+  },
+  {
+    "id": 27,
+    "titleEn": "Fight Club",
+    "titleAr": "نادي القتال",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/bac20df00771267d251c638e8cf479ad.jpg",
+    "rating": "9.5",
+    "year": "1999"
+  },
+  {
+    "id": 28,
+    "titleEn": "Pulp Fiction",
+    "titleAr": "خيال رخيص",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/cf3c0e6815c92713fb0279e710ce6fd3.jpg",
+    "rating": "9.6",
+    "year": "1994"
+  },
+  {
+    "id": 29,
+    "titleEn": "The Shawshank Redemption",
+    "titleAr": "الخلاص من شاوشانك",
+    "type": "فيلم",
+    "cat": "movies",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/774df57711d123d0e9610ba622ae8a6d.jpg",
+    "rating": "9.7",
+    "year": "1994"
+  },
+  {
+    "id": 30,
+    "titleEn": "Demon Slayer",
+    "titleAr": "قاتل الشياطين",
+    "type": "أنمي",
+    "cat": "anime",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/26/db9dcda1b31e0bfcd37bc302c1b3c552.jpg",
+    "rating": "9.8",
+    "year": "2024"
+  },
+  {
+    "id": 31,
+    "titleEn": "Jujutsu Kaisen",
+    "titleAr": "جوجوتسو كايسن",
+    "type": "أنمي",
+    "cat": "anime",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/26/bc9427603613c8c9c239a85b2bbc552b.jpg",
+    "rating": "8.4",
+    "year": "2020"
+  },
+  {
+    "id": 32,
+    "titleEn": "Death Note",
+    "titleAr": "مذكرة الموت",
+    "type": "أنمي",
+    "cat": "anime",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/6e1df13360d1167d1b4fc42cb868763a.jpg",
+    "rating": "8.5",
+    "year": "2007"
+  },
+  {
+    "id": 33,
+    "titleEn": "Spirited Away",
+    "titleAr": "المخطوفة",
+    "type": "أنمي",
+    "cat": "anime",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/27/e0e6fa3e4ee6d7ab537d164c1d67444d.jpg",
+    "rating": "8.6",
+    "year": "2003"
+  },
+  {
+    "id": 34,
+    "titleEn": "Rick and Morty",
+    "titleAr": "ريك ومورتي",
+    "type": "أنمي",
+    "cat": "anime",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/10/29/04c8109c0b3567c57bf31a684443a718.jpg",
+    "rating": "8.7",
+    "year": "2013"
+  },
+  {
+    "id": 35,
+    "titleEn": "Sherlock",
+    "titleAr": "شارلوك",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/05/01/96cdad23a681edcd20b8b5a6b2a83d00.jpg",
+    "rating": "8.8",
+    "year": "2010"
+  },
+  {
+    "id": 36,
+    "titleEn": "Chernobyl",
+    "titleAr": "تشرنوبل",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2026/01/26/3087f5b54ceafdeb1422199acf79a139.jpg",
+    "rating": "8.9",
+    "year": "2019"
+  },
+  {
+    "id": 37,
+    "titleEn": "Succession",
+    "titleAr": "الخلافة",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/075a15b67ecccb60751a3689f82a3c47.jpg",
+    "rating": "9.0",
+    "year": "2023"
+  },
+  {
+    "id": 38,
+    "titleEn": "The Sopranos",
+    "titleAr": "آل سوبرانو",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/11/01/a27c650a2b59d9ca59398290adc43c28.jpg",
+    "rating": "9.1",
+    "year": "2007"
+  },
+  {
+    "id": 39,
+    "titleEn": "Vikings",
+    "titleAr": "فايكنجز",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/04/30/e8ffeb4308db7c424b0a02bdfd63696c.jpg",
+    "rating": "9.2",
+    "year": "2013"
+  },
+  {
+    "id": 40,
+    "titleEn": "Friends",
+    "titleAr": "الأصدقاء",
+    "type": "مسلسل",
+    "cat": "series",
+    "cover": "https://pbcdnw.aoneroom.com/image/2025/12/04/1c37539b52a7873d9fb8f0e6be65abdc.jpg",
+    "rating": "9.3",
+    "year": "2003"
+  }
+]

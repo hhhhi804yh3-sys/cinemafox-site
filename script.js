@@ -122,4 +122,75 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+  // ===================================================
+  // أعمال في التطبيق (DYNAMIC 40 TITLES INTERACTIVITY)
+  // ===================================================
+  const filterPills = document.querySelectorAll('.filter-pill');
+  const marqueeWrapper = document.getElementById('marqueeWrapper');
+  const filteredGridView = document.getElementById('filteredGridView');
+  const filteredCardsContainer = document.getElementById('filteredCardsContainer');
+  const tracks = document.querySelectorAll('.marquee-track');
+  const marqueeToggleBtn = document.getElementById('marqueeToggleBtn');
+  const marqueeToggleIcon = document.getElementById('marqueeToggleIcon');
+  const marqueeToggleLabel = document.getElementById('marqueeToggleLabel');
+  let isMarqueePaused = false;
+
+  // Toggle Marquee Pause / Play
+  marqueeToggleBtn?.addEventListener('click', () => {
+    isMarqueePaused = !isMarqueePaused;
+    tracks.forEach(t => t.classList.toggle('paused', isMarqueePaused));
+    if (marqueeToggleIcon) marqueeToggleIcon.textContent = isMarqueePaused ? '▶️' : '⏸️';
+    if (marqueeToggleLabel) marqueeToggleLabel.textContent = isMarqueePaused ? 'تشغيل الحركة' : 'إيقاف مؤقت';
+  });
+
+  // Get all unique poster cards from track1 and track2 (first half only to avoid duplicates)
+  const allCards = [];
+  const track1 = document.getElementById('track1');
+  const track2 = document.getElementById('track2');
+  
+  if (track1 && track2) {
+    const t1Cards = track1.querySelectorAll('.poster-card');
+    const t2Cards = track2.querySelectorAll('.poster-card');
+    // Each track has 20 cards duplicated (40 total per track)
+    for (let i = 0; i < t1Cards.length / 2; i++) allCards.push(t1Cards[i]);
+    for (let i = 0; i < t2Cards.length / 2; i++) allCards.push(t2Cards[i]);
+  }
+
+  // Filter Pills Click
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      filterPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      const filter = pill.getAttribute('data-filter');
+
+      if (filter === 'all') {
+        marqueeWrapper.style.display = 'block';
+        filteredGridView.style.display = 'none';
+      } else {
+        marqueeWrapper.style.display = 'none';
+        filteredGridView.style.display = 'block';
+        filteredCardsContainer.innerHTML = '';
+
+        const matching = allCards.filter(c => c.getAttribute('data-cat') === filter);
+        matching.forEach(c => {
+          const clone = c.cloneNode(true);
+          clone.addEventListener('click', handlePosterClick);
+          filteredCardsContainer.appendChild(clone);
+        });
+      }
+    });
+  });
+
+  // Poster card click -> smooth scroll to download
+  function handlePosterClick() {
+    const dlSection = document.getElementById('download');
+    if (dlSection) {
+      dlSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  document.querySelectorAll('.poster-card').forEach(card => {
+    card.addEventListener('click', handlePosterClick);
+  });
 });

@@ -28,6 +28,10 @@
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
           <span>الأقسام</span>
         </a>
+        <a href="#titles">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/></svg>
+          <span>أعمال في التطبيق</span>
+        </a>
         <a href="#screens">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
           <span>المعاينة</span>
@@ -235,6 +239,1840 @@
           </div>
           <h3 class="card-title">انمي</h3>
           <p class="card-desc">أقوى سلاسل الأنمي الياباني مترجمة بجودة خارقة</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       أعمال في التطبيق (DYNAMIC 40 TITLES SHOWCASE)
+       =================================================== -->
+  <section class="titles-section" id="titles">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/></svg>
+          المكتبة السينمائية
+        </span>
+        <h2 class="section-title">أعمال في التطبيق</h2>
+        <p class="section-subtitle">عيّنة من أشهر 40 عملاً عالمياً ومسلسلات نازلة بالكامل متوفرة للمشاهدة الآن</p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="titles-filter-bar">
+        <button class="filter-pill active" data-filter="all">
+          <span>⭐ الكل (40)</span>
+        </button>
+        <button class="filter-pill" data-filter="series">
+          <span>📺 مسلسلات (20)</span>
+        </button>
+        <button class="filter-pill" data-filter="movies">
+          <span>🎬 أفلام (14)</span>
+        </button>
+        <button class="filter-pill" data-filter="anime">
+          <span>⚔️ أنمي (6)</span>
+        </button>
+      </div>
+
+      <!-- Marquee Controls -->
+      <div class="marquee-controls-row">
+        <span class="marquee-status-text">
+          <span class="pulse-dot"></span>
+          <span>تقليب مستمر وديناميكي تلقائي • مرّر الماوس أو المس للإيقاف والتصفح</span>
+        </span>
+        <button class="marquee-toggle-btn" id="marqueeToggleBtn" title="إيقاف / تشغيل الحركة">
+          <span id="marqueeToggleIcon">⏸️</span>
+          <span id="marqueeToggleLabel">إيقاف مؤقت</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Dual Infinite Scrolling Marquee Track -->
+    <div class="marquee-wrapper" id="marqueeWrapper">
+      <!-- Row 1: Leftward Infinite Stream -->
+      <div class="marquee-track-container">
+        <div class="marquee-track track-left" id="track1">
+          <!-- First 20 items duplicated for seamless infinite loop -->
+          
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/8dd88b1e1f69555366b5bdbad1d5d313.jpg" alt="ديكستر - Dexter" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.4</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">ديكستر</h4>
+            <span class="poster-title-en">Dexter</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/d10dfae65c78f3ceb592ba5772bab973.jpg" alt="بريكينج باد - Breaking Bad" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.5</span>
+              <span class="poster-year">2012</span>
+            </div>
+            <h4 class="poster-title-ar">بريكينج باد</h4>
+            <span class="poster-title-en">Breaking Bad</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/56be9215afed5148ace0704623a0ad56.jpg" alt="صراع العروش - Game of Thrones" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.6</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">صراع العروش</h4>
+            <span class="poster-title-en">Game of Thrones</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/2fb96524d94b9cc40c5fd6622ca1402f.jpg" alt="مودرن فاميلي - Modern Family" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.7</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">مودرن فاميلي</h4>
+            <span class="poster-title-en">Modern Family</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/606c37c7ae5e104cbaaf0079aef51b13.jpg" alt="كيف قابلت أمكم - How I Met Your Mother" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.8</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">كيف قابلت أمكم</h4>
+            <span class="poster-title-en">How I Met Your Mother</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/35adb669c1dea2cb4658aad7f44395d5.jpg" alt="أوبنهايمر - Oppenheimer" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.9</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">أوبنهايمر</h4>
+            <span class="poster-title-en">Oppenheimer</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/10/14/720bf396098beaa93141bfc5a46ccf32.jpg" alt="أشياء غريبة - Stranger Things" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.0</span>
+              <span class="poster-year">2016</span>
+            </div>
+            <h4 class="poster-title-ar">أشياء غريبة</h4>
+            <span class="poster-title-en">Stranger Things</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/ad615363f858bc54b02e6ba7a05f90c5.jpg" alt="بيكي بلايندرز - Peaky Blinders" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.1</span>
+              <span class="poster-year">2022</span>
+            </div>
+            <h4 class="poster-title-ar">بيكي بلايندرز</h4>
+            <span class="poster-title-en">Peaky Blinders</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/f1aeaf2671b8b1589b5a56b40e730f1b.jpg" alt="بين النجوم - Interstellar" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.2</span>
+              <span class="poster-year">2014</span>
+            </div>
+            <h4 class="poster-title-ar">بين النجوم</h4>
+            <span class="poster-title-en">Interstellar</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/03a483058245baca96fe8ecd075ea99c.jpg" alt="فارس الظلام - The Dark Knight" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.3</span>
+              <span class="poster-year">2008</span>
+            </div>
+            <h4 class="poster-title-ar">فارس الظلام</h4>
+            <span class="poster-title-en">The Dark Knight</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/2735770dff71711ed9ad492f40b5695d.jpg" alt="هجوم العمالقة - Attack on Titan" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.4</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">هجوم العمالقة</h4>
+            <span class="poster-title-en">Attack on Titan</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/08/26/6103ed872b16352c2c1e8f2857327c34.jpg" alt="ون بيس - One Piece" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.5</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">ون بيس</h4>
+            <span class="poster-title-en">One Piece</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/aa3a9fa29d1fa763414bdec17fa6c9ce.jpg" alt="ذا لاست أوف أس - The Last of Us" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.6</span>
+              <span class="poster-year">2025</span>
+            </div>
+            <h4 class="poster-title-ar">ذا لاست أوف أس</h4>
+            <span class="poster-title-en">The Last of Us</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/11/01/51573354307ea900eb608e4829f6cc90.jpg" alt="آل التنين - House of the Dragon" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.7</span>
+              <span class="poster-year">2024</span>
+            </div>
+            <h4 class="poster-title-ar">آل التنين</h4>
+            <span class="poster-title-en">House of the Dragon</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/2c39509034e99da0bec0084818136dcc.jpg" alt="من الأفضل الاتصال بسول - Better Call Saul" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.8</span>
+              <span class="poster-year">2022</span>
+            </div>
+            <h4 class="poster-title-ar">من الأفضل الاتصال بسول</h4>
+            <span class="poster-title-en">Better Call Saul</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/09/15/455328c7f4249ad60b5e585049de8019.jpg" alt="الرفاق - The Boys" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.4</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">الرفاق</h4>
+            <span class="poster-title-en">The Boys</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/03/30/aeeb26089be96a60bfce118097010f66.jpg" alt="الهروب من السجن - Prison Break" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.5</span>
+              <span class="poster-year">2017</span>
+            </div>
+            <h4 class="poster-title-ar">الهروب من السجن</h4>
+            <span class="poster-title-en">Prison Break</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/eaf145965da4284459db9de4574da50f.jpg" alt="ناركوس - Narcos" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.6</span>
+              <span class="poster-year">2017</span>
+            </div>
+            <h4 class="poster-title-ar">ناركوس</h4>
+            <span class="poster-title-en">Narcos</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/2b5460ca3e2c3617d28cba3c094d1cc6.jpg" alt="لعبة الحبار - Squid Game" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.7</span>
+              <span class="poster-year">2025</span>
+            </div>
+            <h4 class="poster-title-ar">لعبة الحبار</h4>
+            <span class="poster-title-en">Squid Game</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/ca253305a555591c771c8122e2cfd051.jpg" alt="استهلال - Inception" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.8</span>
+              <span class="poster-year">2010</span>
+            </div>
+            <h4 class="poster-title-ar">استهلال</h4>
+            <span class="poster-title-en">Inception</span>
+          </div>
+        </div>
+          
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/8dd88b1e1f69555366b5bdbad1d5d313.jpg" alt="ديكستر - Dexter" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.4</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">ديكستر</h4>
+            <span class="poster-title-en">Dexter</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/d10dfae65c78f3ceb592ba5772bab973.jpg" alt="بريكينج باد - Breaking Bad" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.5</span>
+              <span class="poster-year">2012</span>
+            </div>
+            <h4 class="poster-title-ar">بريكينج باد</h4>
+            <span class="poster-title-en">Breaking Bad</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/56be9215afed5148ace0704623a0ad56.jpg" alt="صراع العروش - Game of Thrones" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.6</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">صراع العروش</h4>
+            <span class="poster-title-en">Game of Thrones</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/2fb96524d94b9cc40c5fd6622ca1402f.jpg" alt="مودرن فاميلي - Modern Family" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.7</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">مودرن فاميلي</h4>
+            <span class="poster-title-en">Modern Family</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/606c37c7ae5e104cbaaf0079aef51b13.jpg" alt="كيف قابلت أمكم - How I Met Your Mother" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.8</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">كيف قابلت أمكم</h4>
+            <span class="poster-title-en">How I Met Your Mother</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/35adb669c1dea2cb4658aad7f44395d5.jpg" alt="أوبنهايمر - Oppenheimer" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.9</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">أوبنهايمر</h4>
+            <span class="poster-title-en">Oppenheimer</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/10/14/720bf396098beaa93141bfc5a46ccf32.jpg" alt="أشياء غريبة - Stranger Things" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.0</span>
+              <span class="poster-year">2016</span>
+            </div>
+            <h4 class="poster-title-ar">أشياء غريبة</h4>
+            <span class="poster-title-en">Stranger Things</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/ad615363f858bc54b02e6ba7a05f90c5.jpg" alt="بيكي بلايندرز - Peaky Blinders" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.1</span>
+              <span class="poster-year">2022</span>
+            </div>
+            <h4 class="poster-title-ar">بيكي بلايندرز</h4>
+            <span class="poster-title-en">Peaky Blinders</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/f1aeaf2671b8b1589b5a56b40e730f1b.jpg" alt="بين النجوم - Interstellar" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.2</span>
+              <span class="poster-year">2014</span>
+            </div>
+            <h4 class="poster-title-ar">بين النجوم</h4>
+            <span class="poster-title-en">Interstellar</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/03a483058245baca96fe8ecd075ea99c.jpg" alt="فارس الظلام - The Dark Knight" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.3</span>
+              <span class="poster-year">2008</span>
+            </div>
+            <h4 class="poster-title-ar">فارس الظلام</h4>
+            <span class="poster-title-en">The Dark Knight</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/2735770dff71711ed9ad492f40b5695d.jpg" alt="هجوم العمالقة - Attack on Titan" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.4</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">هجوم العمالقة</h4>
+            <span class="poster-title-en">Attack on Titan</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/08/26/6103ed872b16352c2c1e8f2857327c34.jpg" alt="ون بيس - One Piece" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.5</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">ون بيس</h4>
+            <span class="poster-title-en">One Piece</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/aa3a9fa29d1fa763414bdec17fa6c9ce.jpg" alt="ذا لاست أوف أس - The Last of Us" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.6</span>
+              <span class="poster-year">2025</span>
+            </div>
+            <h4 class="poster-title-ar">ذا لاست أوف أس</h4>
+            <span class="poster-title-en">The Last of Us</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/11/01/51573354307ea900eb608e4829f6cc90.jpg" alt="آل التنين - House of the Dragon" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.7</span>
+              <span class="poster-year">2024</span>
+            </div>
+            <h4 class="poster-title-ar">آل التنين</h4>
+            <span class="poster-title-en">House of the Dragon</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/2c39509034e99da0bec0084818136dcc.jpg" alt="من الأفضل الاتصال بسول - Better Call Saul" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.8</span>
+              <span class="poster-year">2022</span>
+            </div>
+            <h4 class="poster-title-ar">من الأفضل الاتصال بسول</h4>
+            <span class="poster-title-en">Better Call Saul</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/09/15/455328c7f4249ad60b5e585049de8019.jpg" alt="الرفاق - The Boys" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.4</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">الرفاق</h4>
+            <span class="poster-title-en">The Boys</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/03/30/aeeb26089be96a60bfce118097010f66.jpg" alt="الهروب من السجن - Prison Break" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.5</span>
+              <span class="poster-year">2017</span>
+            </div>
+            <h4 class="poster-title-ar">الهروب من السجن</h4>
+            <span class="poster-title-en">Prison Break</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/eaf145965da4284459db9de4574da50f.jpg" alt="ناركوس - Narcos" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.6</span>
+              <span class="poster-year">2017</span>
+            </div>
+            <h4 class="poster-title-ar">ناركوس</h4>
+            <span class="poster-title-en">Narcos</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/2b5460ca3e2c3617d28cba3c094d1cc6.jpg" alt="لعبة الحبار - Squid Game" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.7</span>
+              <span class="poster-year">2025</span>
+            </div>
+            <h4 class="poster-title-ar">لعبة الحبار</h4>
+            <span class="poster-title-en">Squid Game</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/ca253305a555591c771c8122e2cfd051.jpg" alt="استهلال - Inception" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.8</span>
+              <span class="poster-year">2010</span>
+            </div>
+            <h4 class="poster-title-ar">استهلال</h4>
+            <span class="poster-title-en">Inception</span>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Rightward Infinite Stream -->
+      <div class="marquee-track-container">
+        <div class="marquee-track track-right" id="track2">
+          <!-- Second 20 items duplicated for seamless infinite loop -->
+          
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/33ba65ca97d24f5865f9c7465b1e1abc.jpg" alt="المصارع - Gladiator" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.9</span>
+              <span class="poster-year">2000</span>
+            </div>
+            <h4 class="poster-title-ar">المصارع</h4>
+            <span class="poster-title-en">Gladiator</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/66c59e84cef3de91abbe5627515b64b2.jpg" alt="كثيب - Dune" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.0</span>
+              <span class="poster-year">2021</span>
+            </div>
+            <h4 class="poster-title-ar">كثيب</h4>
+            <span class="poster-title-en">Dune</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/8e507736f832f51f4b872a587953e644.jpg" alt="سبايدرمان - Spider-Man: Across the Spider-Verse" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.1</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">سبايدرمان</h4>
+            <span class="poster-title-en">Spider-Man: Across the Spider-Verse</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/53082cdb87d11ee0e9b01c69074996c3.jpg" alt="المنتقمون: نهاية اللعبة - Avengers: Endgame" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.2</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">المنتقمون: نهاية اللعبة</h4>
+            <span class="poster-title-en">Avengers: Endgame</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/9e4b957e7b0d98bc71d36dd88af17573.jpg" alt="باتمان - The Batman" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.3</span>
+              <span class="poster-year">2022</span>
+            </div>
+            <h4 class="poster-title-ar">باتمان</h4>
+            <span class="poster-title-en">The Batman</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/850324eb26b7d8aded5f955be9b7d289.jpg" alt="الجوكر - Joker" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.4</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">الجوكر</h4>
+            <span class="poster-title-en">Joker</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/bac20df00771267d251c638e8cf479ad.jpg" alt="نادي القتال - Fight Club" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.5</span>
+              <span class="poster-year">1999</span>
+            </div>
+            <h4 class="poster-title-ar">نادي القتال</h4>
+            <span class="poster-title-en">Fight Club</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/cf3c0e6815c92713fb0279e710ce6fd3.jpg" alt="خيال رخيص - Pulp Fiction" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.6</span>
+              <span class="poster-year">1994</span>
+            </div>
+            <h4 class="poster-title-ar">خيال رخيص</h4>
+            <span class="poster-title-en">Pulp Fiction</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/774df57711d123d0e9610ba622ae8a6d.jpg" alt="الخلاص من شاوشانك - The Shawshank Redemption" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.7</span>
+              <span class="poster-year">1994</span>
+            </div>
+            <h4 class="poster-title-ar">الخلاص من شاوشانك</h4>
+            <span class="poster-title-en">The Shawshank Redemption</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/db9dcda1b31e0bfcd37bc302c1b3c552.jpg" alt="قاتل الشياطين - Demon Slayer" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.8</span>
+              <span class="poster-year">2024</span>
+            </div>
+            <h4 class="poster-title-ar">قاتل الشياطين</h4>
+            <span class="poster-title-en">Demon Slayer</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/bc9427603613c8c9c239a85b2bbc552b.jpg" alt="جوجوتسو كايسن - Jujutsu Kaisen" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.4</span>
+              <span class="poster-year">2020</span>
+            </div>
+            <h4 class="poster-title-ar">جوجوتسو كايسن</h4>
+            <span class="poster-title-en">Jujutsu Kaisen</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/6e1df13360d1167d1b4fc42cb868763a.jpg" alt="مذكرة الموت - Death Note" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.5</span>
+              <span class="poster-year">2007</span>
+            </div>
+            <h4 class="poster-title-ar">مذكرة الموت</h4>
+            <span class="poster-title-en">Death Note</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/e0e6fa3e4ee6d7ab537d164c1d67444d.jpg" alt="المخطوفة - Spirited Away" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.6</span>
+              <span class="poster-year">2003</span>
+            </div>
+            <h4 class="poster-title-ar">المخطوفة</h4>
+            <span class="poster-title-en">Spirited Away</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/10/29/04c8109c0b3567c57bf31a684443a718.jpg" alt="ريك ومورتي - Rick and Morty" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.7</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">ريك ومورتي</h4>
+            <span class="poster-title-en">Rick and Morty</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/05/01/96cdad23a681edcd20b8b5a6b2a83d00.jpg" alt="شارلوك - Sherlock" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.8</span>
+              <span class="poster-year">2010</span>
+            </div>
+            <h4 class="poster-title-ar">شارلوك</h4>
+            <span class="poster-title-en">Sherlock</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/3087f5b54ceafdeb1422199acf79a139.jpg" alt="تشرنوبل - Chernobyl" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.9</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">تشرنوبل</h4>
+            <span class="poster-title-en">Chernobyl</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/075a15b67ecccb60751a3689f82a3c47.jpg" alt="الخلافة - Succession" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.0</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">الخلافة</h4>
+            <span class="poster-title-en">Succession</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/11/01/a27c650a2b59d9ca59398290adc43c28.jpg" alt="آل سوبرانو - The Sopranos" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.1</span>
+              <span class="poster-year">2007</span>
+            </div>
+            <h4 class="poster-title-ar">آل سوبرانو</h4>
+            <span class="poster-title-en">The Sopranos</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/04/30/e8ffeb4308db7c424b0a02bdfd63696c.jpg" alt="فايكنجز - Vikings" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.2</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">فايكنجز</h4>
+            <span class="poster-title-en">Vikings</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/1c37539b52a7873d9fb8f0e6be65abdc.jpg" alt="الأصدقاء - Friends" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.3</span>
+              <span class="poster-year">2003</span>
+            </div>
+            <h4 class="poster-title-ar">الأصدقاء</h4>
+            <span class="poster-title-en">Friends</span>
+          </div>
+        </div>
+          
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/33ba65ca97d24f5865f9c7465b1e1abc.jpg" alt="المصارع - Gladiator" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.9</span>
+              <span class="poster-year">2000</span>
+            </div>
+            <h4 class="poster-title-ar">المصارع</h4>
+            <span class="poster-title-en">Gladiator</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/66c59e84cef3de91abbe5627515b64b2.jpg" alt="كثيب - Dune" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.0</span>
+              <span class="poster-year">2021</span>
+            </div>
+            <h4 class="poster-title-ar">كثيب</h4>
+            <span class="poster-title-en">Dune</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/8e507736f832f51f4b872a587953e644.jpg" alt="سبايدرمان - Spider-Man: Across the Spider-Verse" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.1</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">سبايدرمان</h4>
+            <span class="poster-title-en">Spider-Man: Across the Spider-Verse</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/53082cdb87d11ee0e9b01c69074996c3.jpg" alt="المنتقمون: نهاية اللعبة - Avengers: Endgame" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.2</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">المنتقمون: نهاية اللعبة</h4>
+            <span class="poster-title-en">Avengers: Endgame</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/9e4b957e7b0d98bc71d36dd88af17573.jpg" alt="باتمان - The Batman" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.3</span>
+              <span class="poster-year">2022</span>
+            </div>
+            <h4 class="poster-title-ar">باتمان</h4>
+            <span class="poster-title-en">The Batman</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/850324eb26b7d8aded5f955be9b7d289.jpg" alt="الجوكر - Joker" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.4</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">الجوكر</h4>
+            <span class="poster-title-en">Joker</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/bac20df00771267d251c638e8cf479ad.jpg" alt="نادي القتال - Fight Club" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.5</span>
+              <span class="poster-year">1999</span>
+            </div>
+            <h4 class="poster-title-ar">نادي القتال</h4>
+            <span class="poster-title-en">Fight Club</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/cf3c0e6815c92713fb0279e710ce6fd3.jpg" alt="خيال رخيص - Pulp Fiction" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.6</span>
+              <span class="poster-year">1994</span>
+            </div>
+            <h4 class="poster-title-ar">خيال رخيص</h4>
+            <span class="poster-title-en">Pulp Fiction</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="movies">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/774df57711d123d0e9610ba622ae8a6d.jpg" alt="الخلاص من شاوشانك - The Shawshank Redemption" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">فيلم</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.7</span>
+              <span class="poster-year">1994</span>
+            </div>
+            <h4 class="poster-title-ar">الخلاص من شاوشانك</h4>
+            <span class="poster-title-en">The Shawshank Redemption</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/db9dcda1b31e0bfcd37bc302c1b3c552.jpg" alt="قاتل الشياطين - Demon Slayer" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.8</span>
+              <span class="poster-year">2024</span>
+            </div>
+            <h4 class="poster-title-ar">قاتل الشياطين</h4>
+            <span class="poster-title-en">Demon Slayer</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/bc9427603613c8c9c239a85b2bbc552b.jpg" alt="جوجوتسو كايسن - Jujutsu Kaisen" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.4</span>
+              <span class="poster-year">2020</span>
+            </div>
+            <h4 class="poster-title-ar">جوجوتسو كايسن</h4>
+            <span class="poster-title-en">Jujutsu Kaisen</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/6e1df13360d1167d1b4fc42cb868763a.jpg" alt="مذكرة الموت - Death Note" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.5</span>
+              <span class="poster-year">2007</span>
+            </div>
+            <h4 class="poster-title-ar">مذكرة الموت</h4>
+            <span class="poster-title-en">Death Note</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/e0e6fa3e4ee6d7ab537d164c1d67444d.jpg" alt="المخطوفة - Spirited Away" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.6</span>
+              <span class="poster-year">2003</span>
+            </div>
+            <h4 class="poster-title-ar">المخطوفة</h4>
+            <span class="poster-title-en">Spirited Away</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="anime">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/10/29/04c8109c0b3567c57bf31a684443a718.jpg" alt="ريك ومورتي - Rick and Morty" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">أنمي</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.7</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">ريك ومورتي</h4>
+            <span class="poster-title-en">Rick and Morty</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/05/01/96cdad23a681edcd20b8b5a6b2a83d00.jpg" alt="شارلوك - Sherlock" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.8</span>
+              <span class="poster-year">2010</span>
+            </div>
+            <h4 class="poster-title-ar">شارلوك</h4>
+            <span class="poster-title-en">Sherlock</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/3087f5b54ceafdeb1422199acf79a139.jpg" alt="تشرنوبل - Chernobyl" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 8.9</span>
+              <span class="poster-year">2019</span>
+            </div>
+            <h4 class="poster-title-ar">تشرنوبل</h4>
+            <span class="poster-title-en">Chernobyl</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/075a15b67ecccb60751a3689f82a3c47.jpg" alt="الخلافة - Succession" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.0</span>
+              <span class="poster-year">2023</span>
+            </div>
+            <h4 class="poster-title-ar">الخلافة</h4>
+            <span class="poster-title-en">Succession</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/11/01/a27c650a2b59d9ca59398290adc43c28.jpg" alt="آل سوبرانو - The Sopranos" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.1</span>
+              <span class="poster-year">2007</span>
+            </div>
+            <h4 class="poster-title-ar">آل سوبرانو</h4>
+            <span class="poster-title-en">The Sopranos</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/04/30/e8ffeb4308db7c424b0a02bdfd63696c.jpg" alt="فايكنجز - Vikings" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.2</span>
+              <span class="poster-year">2013</span>
+            </div>
+            <h4 class="poster-title-ar">فايكنجز</h4>
+            <span class="poster-title-en">Vikings</span>
+          </div>
+        </div>
+        <div class="poster-card" data-cat="series">
+          <div class="poster-img-wrap">
+            <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/1c37539b52a7873d9fb8f0e6be65abdc.jpg" alt="الأصدقاء - Friends" loading="lazy">
+            <span class="poster-quality">1080p FHD</span>
+            <span class="poster-type-badge">مسلسل</span>
+            <div class="poster-overlay">
+              <span class="poster-play-btn">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="poster-meta">
+            <div class="poster-meta-top">
+              <span class="poster-rating">⭐ 9.3</span>
+              <span class="poster-year">2003</span>
+            </div>
+            <h4 class="poster-title-ar">الأصدقاء</h4>
+            <span class="poster-title-en">Friends</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filtered Grid View (Hidden by default, shown when user clicks a specific category filter) -->
+    <div class="container">
+      <div class="filtered-grid-view" id="filteredGridView" style="display: none;">
+        <div class="filtered-cards-grid" id="filteredCardsContainer">
+          <!-- Populated dynamically via JS when filtered -->
         </div>
       </div>
     </div>
