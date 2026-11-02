@@ -140,44 +140,98 @@
 
       <div class="liquid-glass-grid">
         <!-- 1. مسلسلات -->
-        <div class="liquid-glass-card">
+        <div class="liquid-glass-card card-series">
           <div class="glass-reflection"></div>
-          <span class="category-badge-icon">📺</span>
           <div class="card-icon-wrap">
-            <img src="assets/images/fox_foreground.png" alt="مسلسلات" class="glass-fox-img">
+            <div class="category-icon-box box-series">
+              <svg viewBox="0 0 48 48" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="seriesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00E5FF"/>
+                    <stop offset="100%" stop-color="#7000FF"/>
+                  </linearGradient>
+                </defs>
+                <rect x="5" y="8" width="38" height="26" rx="6" stroke="url(#seriesGrad)" stroke-width="3" fill="rgba(0, 229, 255, 0.1)"/>
+                <path d="M7 11h18l-12 20H7V11z" fill="url(#seriesGrad)" opacity="0.18"/>
+                <path d="M21 16l10 5.5-10 5.5V16z" fill="url(#seriesGrad)"/>
+                <path d="M18 34h12M24 34v5M16 39h16" stroke="url(#seriesGrad)" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="37" cy="13" r="2.2" fill="#00E5FF"/>
+              </svg>
+            </div>
           </div>
           <h3 class="card-title">مسلسلات</h3>
           <p class="card-desc">أحدث المواسم والحلقات الكاملة مع حفظ مكان توقفك</p>
         </div>
 
         <!-- 2. أفلام -->
-        <div class="liquid-glass-card">
+        <div class="liquid-glass-card card-movies">
           <div class="glass-reflection"></div>
-          <span class="category-badge-icon">🎬</span>
           <div class="card-icon-wrap">
-            <img src="assets/images/fox_foreground.png" alt="أفلام" class="glass-fox-img">
+            <div class="category-icon-box box-movies">
+              <svg viewBox="0 0 48 48" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="movieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FFD700"/>
+                    <stop offset="100%" stop-color="#FF6B00"/>
+                  </linearGradient>
+                </defs>
+                <rect x="6" y="15" width="36" height="25" rx="5" stroke="url(#movieGrad)" stroke-width="3" fill="rgba(255, 215, 0, 0.12)"/>
+                <path d="M6 15l34-8 2 6-34 8-2-6z" fill="url(#movieGrad)"/>
+                <path d="M13 13.5l3-5.5M22 11.5l3-5.5M31 9.5l3-5.5" stroke="#000000" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M24 22l2 4.2 4.6.6-3.3 3.3.8 4.6-4.1-2.2-4.1 2.2.8-4.6-3.3-3.3 4.6-.6z" fill="url(#movieGrad)"/>
+              </svg>
+            </div>
           </div>
           <h3 class="card-title">أفلام</h3>
           <p class="card-desc">سينما هوليوود والعالمية بأعلى دقة 1080p FHD</p>
         </div>
 
         <!-- 3. كارتون -->
-        <div class="liquid-glass-card">
+        <div class="liquid-glass-card card-cartoon">
           <div class="glass-reflection"></div>
-          <span class="category-badge-icon">🎨</span>
           <div class="card-icon-wrap">
-            <img src="assets/images/fox_foreground.png" alt="كارتون" class="glass-fox-img">
+            <div class="category-icon-box box-cartoon">
+              <svg viewBox="0 0 48 48" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="cartoonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FF52D9"/>
+                    <stop offset="100%" stop-color="#9900FF"/>
+                  </linearGradient>
+                </defs>
+                <path d="M12 36L28 20" stroke="url(#cartoonGrad)" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="10" cy="38" r="3" fill="url(#cartoonGrad)"/>
+                <path d="M33 7l2.5 5.5 6 1-4.3 4.2 1 6-5.2-2.8-5.2 2.8 1-6-4.3-4.2 6-1z" fill="url(#cartoonGrad)"/>
+                <circle cx="18" cy="12" r="2.5" fill="#FF52D9"/>
+                <circle cx="40" cy="27" r="2" fill="#00E5FF"/>
+                <circle cx="28" cy="38" r="2.2" fill="#FFD700"/>
+                <path d="M15 18l1.2 2.2 2.2 1.2-2.2 1.2-1.2 2.2-1.2-2.2-2.2-1.2 2.2-1.2z" fill="#FFF"/>
+              </svg>
+            </div>
           </div>
           <h3 class="card-title">كارتون</h3>
           <p class="card-desc">أعمال ديزني وسبيستون والرسوم العائلية المدبلجة</p>
         </div>
 
         <!-- 4. انمي -->
-        <div class="liquid-glass-card">
+        <div class="liquid-glass-card card-anime">
           <div class="glass-reflection"></div>
-          <span class="category-badge-icon">⚔️</span>
           <div class="card-icon-wrap">
-            <img src="assets/images/fox_foreground.png" alt="انمي" class="glass-fox-img">
+            <div class="category-icon-box box-anime">
+              <svg viewBox="0 0 48 48" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="animeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FF1744"/>
+                    <stop offset="100%" stop-color="#D500F9"/>
+                  </linearGradient>
+                </defs>
+                <path d="M9 39l22-22" stroke="url(#animeGrad)" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M31 17l6-6c1-1 2.5-1 3.5 0s1 2.5 0 3.5l-6 6" stroke="url(#animeGrad)" stroke-width="2.5" fill="rgba(255, 23, 68, 0.25)"/>
+                <path d="M39 39L17 17" stroke="url(#animeGrad)" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M17 17l-6-6c-1-1-2.5-1-3.5 0s-1 2.5 0 3.5l6 6" stroke="url(#animeGrad)" stroke-width="2.5" fill="rgba(213, 0, 249, 0.25)"/>
+                <circle cx="24" cy="28" r="4.5" fill="#FFFFFF" opacity="0.95"/>
+                <path d="M24 17v22M13 28h22" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
           </div>
           <h3 class="card-title">انمي</h3>
           <p class="card-desc">أقوى سلاسل الأنمي الياباني مترجمة بجودة خارقة</p>
@@ -463,7 +517,7 @@
             </div>
             <div class="btn-text">
               <span class="btn-main-label">تحميل التطبيق الآن (CinemaFox.apk)</span>
-              <span class="btn-sub-label">رابط مباشر وسريع من سيرفرات GitHub • الحجم 66 MB</span>
+              <span class="btn-sub-label">رابط مباشر وسريع • الحجم 66 MB • مجاني بالكامل</span>
             </div>
           </a>
         </div>
@@ -486,9 +540,14 @@
       </div>
       <p class="footer-copy">جميع الحقوق محفوظة © 2026 سينما فوكس. منصة ترفيهية متكاملة لمشاهدة الأفلام والمسلسلات والأنمي.</p>
       <div class="footer-links">
-        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
-          <span>مستودع GitHub</span>
+        <a href="#categories">
+          <span>الأقسام الرئيسية</span>
+        </a>
+        <a href="#screens">
+          <span>معاينة التطبيق</span>
+        </a>
+        <a href="#features">
+          <span>المميزات</span>
         </a>
         <a href="#download">
           <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
