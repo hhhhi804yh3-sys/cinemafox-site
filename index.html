@@ -7,32 +7,39 @@
   <meta name="description" content="حمّل تطبيق سينما فوكس الرسمي للأندرويد v1.2.0. مكتبة شاملة من أحدث الأفلام والمسلسلات والأنمي بدقة 1080p FHD مع حفظ تقدم المشاهدة والترجمة المخصصة وبدون إعلانات.">
   <link rel="icon" type="image/png" href="assets/images/logo.png">
 
-  <!-- Clean, Modern Google Fonts: Cairo & Plus Jakarta Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Ambient Dark Background Effect -->
-  <div class="ambient-glow"></div>
+  <!-- Cosmic Top Ambient Aurora (HBO Max Style) -->
+  <div class="hbo-aurora"></div>
 
-  <!-- Navbar -->
+  <!-- Navbar (HBO Max Floating Glass Header) -->
   <header class="navbar-wrapper">
     <nav class="navbar">
       <div class="nav-brand">
         <img src="assets/images/logo.png" alt="شعار سينما فوكس" class="brand-logo">
         <span class="brand-name">سينما فوكس</span>
-        <span class="badge-version">v1.2.0</span>
+        <span class="badge-vip">v1.2.0</span>
       </div>
 
       <div class="nav-links">
-        <a href="#categories">الأقسام</a>
-        <a href="#screens">معاينة التطبيق</a>
-        <a href="#features">المميزات</a>
-        <a href="#specs">المواصفات</a>
+        <a href="#categories">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          <span>الأقسام</span>
+        </a>
+        <a href="#screens">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+          <span>المعاينة</span>
+        </a>
+        <a href="#features">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          <span>المميزات</span>
+        </a>
+        <a href="#steps">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          <span>التثبيت</span>
+        </a>
       </div>
 
       <div class="nav-cta">
@@ -46,27 +53,28 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero Section (HBO Max Cinematic Layout) -->
   <section class="hero-section">
     <div class="container hero-content">
       
       <div class="hero-pill">
         <span class="pulse-dot"></span>
+        <span class="pill-icon">✨</span>
         <span>النسخة الرسمية المحدثة v1.2.0 متاحة للتحميل المباشر</span>
       </div>
 
       <h1 class="hero-title">
-        عالمك السينمائي المتكامل<br>
-        <span class="hero-title-accent">بأعلى جودة وبدون إعلانات</span>
+        تطبيق <span class="brand-highlight">سينما فوكس</span> الرسمي<br>
+        <span class="hbo-gradient-text">عالمك السينمائي بلا حدود</span>
       </h1>
 
       <p class="hero-subtitle">
-        مكتبتك الشاملة لمشاهدة وتنزيل أحدث الأفلام والمسلسلات والأنمي بدقة 1080p FHD الأصلية، مع ميزة استئناف المشاهدة التلقائي وتحكم كامل بإعدادات الترجمة.
+        المكتبة الترفيهية الشاملة لمشاهدة وتنزيل أحدث الأفلام والمسلسلات والأنمي بدقة 1080p FHD الأصلية، مع ميزة حفظ المشاهدة التلقائي وتحكم كامل بإعدادات الترجمة وخالٍ تماماً من الإعلانات.
       </p>
 
-      <!-- Main Download Button -->
+      <!-- Main Action Buttons -->
       <div class="hero-actions">
-        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.0/CinemaFox.apk" id="directDownloadBtn" class="btn-primary-download" download>
+        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.0/CinemaFox.apk" id="directDownloadBtn" class="btn-hbo-primary" download>
           <div class="btn-icon">
             <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
               <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m-11.046 0c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5898 8.4026 13.854 8 12 8s-3.5898.4026-5.1368 1.1497L4.8409 5.6467a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396"/>
@@ -74,7 +82,7 @@
           </div>
           <div class="btn-text">
             <span class="btn-main-label">تحميل تطبيق سينما فوكس (APK مباشر)</span>
-            <span class="btn-sub-label">الإصدار 1.2.0 • الحجم 66 MB • Android 7.0+ • مباشر وسريع</span>
+            <span class="btn-sub-label">الإصدار v1.2.0 • الحجم 66 MB • Android 7.0+ • سريع وآمن 100%</span>
           </div>
           <div class="btn-arrow">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
@@ -82,44 +90,59 @@
             </svg>
           </div>
         </a>
+
+        <a href="#screens" class="btn-hbo-ghost">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+          </svg>
+          <span>معاينة واجهة التطبيق</span>
+        </a>
       </div>
 
-      <!-- Hero Trust Row -->
+      <!-- Hero Trust Icons Grid -->
       <div class="hero-specs-row">
         <div class="spec-item">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="#00E069"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          <span class="spec-emoji">🛡️</span>
           <span>خالٍ تماماً من الإعلانات</span>
         </div>
         <div class="spec-item">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="#00E069"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-          <span>دقة أصلية 1080p FHD</span>
+          <span class="spec-emoji">🎬</span>
+          <span>دقة 1080p FHD أصلية</span>
         </div>
         <div class="spec-item">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="#00E069"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-          <span>حفظ مكان توقفك تلقائياً</span>
+          <span class="spec-emoji">⏱️</span>
+          <span>حفظ المشاهدة التلقائي</span>
         </div>
         <div class="spec-item">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="#00E069"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          <span class="spec-emoji">📥</span>
           <span>تنزيل أوفلاين مع الترجمة</span>
+        </div>
+        <div class="spec-item">
+          <span class="spec-emoji">⚡</span>
+          <span>كاش فوري واستجابة سريعة</span>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- 4 Glass Category Tiles (Matching User Glass Style) -->
+  <!-- The 4 Liquid Glass Category Tiles (Matching User Style + HBO Max Depth) -->
   <section class="categories-section" id="categories">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">التصنيفات الرئيسية</span>
-        <h2 class="section-title">أقسام سينما فوكس الحصرية</h2>
-        <p class="section-subtitle">أربعة عوالم سينمائية صُممت بأعلى معايير الإتقان والفخامة</p>
+        <span class="section-badge">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          التصنيفات الحصرية
+        </span>
+        <h2 class="section-title">أقسام سينما فوكس الرئيسية</h2>
+        <p class="section-subtitle">أربعة عوالم سينمائية متكاملة صُممت بأعلى معايير الإتقان والفخامة</p>
       </div>
 
       <div class="liquid-glass-grid">
         <!-- 1. مسلسلات -->
         <div class="liquid-glass-card">
           <div class="glass-reflection"></div>
+          <span class="category-badge-icon">📺</span>
           <div class="card-icon-wrap">
             <img src="assets/images/fox_foreground.png" alt="مسلسلات" class="glass-fox-img">
           </div>
@@ -130,16 +153,18 @@
         <!-- 2. أفلام -->
         <div class="liquid-glass-card">
           <div class="glass-reflection"></div>
+          <span class="category-badge-icon">🎬</span>
           <div class="card-icon-wrap">
             <img src="assets/images/fox_foreground.png" alt="أفلام" class="glass-fox-img">
           </div>
           <h3 class="card-title">أفلام</h3>
-          <p class="card-desc">سينما هوليوود والعالمية بأعلى جودة 1080p FHD</p>
+          <p class="card-desc">سينما هوليوود والعالمية بأعلى دقة 1080p FHD</p>
         </div>
 
         <!-- 3. كارتون -->
         <div class="liquid-glass-card">
           <div class="glass-reflection"></div>
+          <span class="category-badge-icon">🎨</span>
           <div class="card-icon-wrap">
             <img src="assets/images/fox_foreground.png" alt="كارتون" class="glass-fox-img">
           </div>
@@ -150,6 +175,7 @@
         <!-- 4. انمي -->
         <div class="liquid-glass-card">
           <div class="glass-reflection"></div>
+          <span class="category-badge-icon">⚔️</span>
           <div class="card-icon-wrap">
             <img src="assets/images/fox_foreground.png" alt="انمي" class="glass-fox-img">
           </div>
@@ -164,9 +190,12 @@
   <section class="screens-section" id="screens">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">معاينة حية</span>
+        <span class="section-badge">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+          معاينة حية للتطبيق
+        </span>
         <h2 class="section-title">لقطات حقيقية من واجهة التطبيق</h2>
-        <p class="section-subtitle">شاهد تجربة الاستخدام السلسة والتصميم الأنيق داخل التطبيق</p>
+        <p class="section-subtitle">شاهد تجربة الاستخدام السلسة والتصميم الأنيق داخل هاتف الأندرويد</p>
       </div>
 
       <div class="showcase-wrapper">
@@ -189,31 +218,52 @@
             <div class="slides-container" id="slidesTrack">
               <div class="slide active">
                 <img src="assets/screenshots/photo_1_2026-11-02_18-35-59.jpg" alt="الصفحة الرئيسية وتصنيفات سينما فوكس">
-                <div class="slide-caption">الصفحة الرئيسية: استعراض البوسترات والتصنيفات</div>
+                <div class="slide-caption">
+                  <span class="caption-icon">🏠</span>
+                  <span>الصفحة الرئيسية: استعراض البوسترات والتصنيفات</span>
+                </div>
               </div>
               <div class="slide">
                 <img src="assets/screenshots/photo_2_2026-11-02_18-35-59.jpg" alt="تفاصيل العمل وقائمة المواسم">
-                <div class="slide-caption">تفاصيل العمل: دقة المواسم والحلقات وسيرفرات البث</div>
+                <div class="slide-caption">
+                  <span class="caption-icon">📜</span>
+                  <span>تفاصيل العمل: دقة المواسم والحلقات وسيرفرات البث</span>
+                </div>
               </div>
               <div class="slide">
                 <img src="assets/screenshots/photo_3_2026-11-02_18-35-59.jpg" alt="مشغل الفيديو الاحترافي والتحكم">
-                <div class="slide-caption">مشغل سينمائي متطور مع استئناف المشاهدة التلقائي</div>
+                <div class="slide-caption">
+                  <span class="caption-icon">🎬</span>
+                  <span>مشغل سينمائي متطور مع استئناف المشاهدة التلقائي</span>
+                </div>
               </div>
               <div class="slide">
                 <img src="assets/screenshots/photo_4_2026-11-02_18-35-59.jpg" alt="إعدادات واختيار الترجمة">
-                <div class="slide-caption">إعدادات ستايل الترجمة: تحكم كامل بالصندوق والحجم والألوان</div>
+                <div class="slide-caption">
+                  <span class="caption-icon">🎨</span>
+                  <span>إعدادات الترجمة: تحكم بالصندوق والحجم والألوان</span>
+                </div>
               </div>
               <div class="slide">
                 <img src="assets/screenshots/photo_5_2026-11-02_18-35-59.jpg" alt="قسم الأنمي والكرتون">
-                <div class="slide-caption">قسم الأنمي والكرتون المترجم والمدبلج</div>
+                <div class="slide-caption">
+                  <span class="caption-icon">⚔️</span>
+                  <span>قسم الأنمي والكرتون المترجم والمدبلج</span>
+                </div>
               </div>
               <div class="slide">
                 <img src="assets/screenshots/photo_6_2026-11-02_18-35-59.jpg" alt="مدير التنزيلات للمشاهدة بدون إنترنت">
-                <div class="slide-caption">مدير التنزيلات فائق السرعة مع الترجمة الأوفلاين</div>
+                <div class="slide-caption">
+                  <span class="caption-icon">📥</span>
+                  <span>مدير التنزيلات فائق السرعة مع الترجمة الأوفلاين</span>
+                </div>
               </div>
               <div class="slide">
                 <img src="assets/screenshots/photo_7_2026-11-02_18-35-59.jpg" alt="سيرفرات الجودة 1080p و 720p">
-                <div class="slide-caption">سيرفرات بث متعددة بدقة 1080p FHD الأصلية</div>
+                <div class="slide-caption">
+                  <span class="caption-icon">⚙️</span>
+                  <span>سيرفرات بث متعددة بدقة 1080p FHD الأصلية</span>
+                </div>
               </div>
             </div>
           </div>
@@ -230,48 +280,61 @@
 
       </div>
 
-      <!-- Numbered Screen Dots -->
+      <!-- Screen Tabs with Icons and Numbers -->
       <div class="thumbnails-bar" id="thumbsBar">
-        <button class="thumb-btn active" data-index="0" title="الرئيسية">1</button>
-        <button class="thumb-btn" data-index="1" title="التفاصيل">2</button>
-        <button class="thumb-btn" data-index="2" title="المشغل">3</button>
-        <button class="thumb-btn" data-index="3" title="الترجمة">4</button>
-        <button class="thumb-btn" data-index="4" title="الأنمي">5</button>
-        <button class="thumb-btn" data-index="5" title="التنزيلات">6</button>
-        <button class="thumb-btn" data-index="6" title="الجودة">7</button>
+        <button class="thumb-btn active" data-index="0" title="الرئيسية">
+          <span>🏠 1</span>
+        </button>
+        <button class="thumb-btn" data-index="1" title="التفاصيل">
+          <span>📜 2</span>
+        </button>
+        <button class="thumb-btn" data-index="2" title="المشغل">
+          <span>🎬 3</span>
+        </button>
+        <button class="thumb-btn" data-index="3" title="الترجمة">
+          <span>🎨 4</span>
+        </button>
+        <button class="thumb-btn" data-index="4" title="الأنمي">
+          <span>⚔️ 5</span>
+        </button>
+        <button class="thumb-btn" data-index="5" title="التنزيلات">
+          <span>📥 6</span>
+        </button>
+        <button class="thumb-btn" data-index="6" title="الجودة">
+          <span>⚙️ 7</span>
+        </button>
       </div>
 
     </div>
   </section>
 
-  <!-- Features Grid -->
+  <!-- Features Grid (HBO Max Glowing Cards) -->
   <section class="features-section" id="features">
     <div class="container">
       <div class="section-header">
-        <span class="section-badge">المميزات الحصرية</span>
-        <h2 class="section-title">تجربة مشاهدة سينمائية متطورة</h2>
-        <p class="section-subtitle">صُممت كل ميزة بعناية فائقة لتمنحك الراحة والسرعة الكاملة</p>
+        <span class="section-badge">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          المميزات الاستثنائية
+        </span>
+        <h2 class="section-title">تجربة مشاهدة تضاهي كبرى المنصات</h2>
+        <p class="section-subtitle">صُممت كل ميزة بعناية فائقة لتمنحك الراحة والسرعة الكاملة أثناء المشاهدة</p>
       </div>
 
       <div class="features-grid">
         
         <!-- Feature 1 -->
         <div class="feature-card">
-          <div class="feature-icon-box icon-red">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
-              <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
-            </svg>
+          <div class="feature-icon-box icon-purple">
+            <span class="feature-emoji">⏱️</span>
           </div>
           <h3>حفظ تقدم المشاهدة الذكي (Netflix-Style)</h3>
-          <p>يحفظ مكان توقفك بالدقيقة والثانية تلقائياً سواء في البث أو التحميل، مع شريط أحمر للتقدم وأيقونة عين (👁️) على الحلقات المكتملة.</p>
+          <p>يحفظ مكان توقفك بالدقيقة والثانية تلقائياً سواء في البث المباشر أو المحتوى المنزّل، مع شريط أحمر للتقدم وأيقونة عين (👁️) على الحلقات المكتملة.</p>
         </div>
 
         <!-- Feature 2 -->
         <div class="feature-card">
-          <div class="feature-icon-box icon-amber">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
-              <path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.28 19.59 10.59 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 15c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/>
-            </svg>
+          <div class="feature-icon-box icon-cyan">
+            <span class="feature-emoji">🎨</span>
           </div>
           <h3>تخصيص كامل وشامل للترجمة</h3>
           <p>تحكم فوري بنوع الصندوق (شفاف، زجاجي معتم، داكن)، وحجم الخط (14px حتى 30px)، وألوان النص (أبيض، أصفر، سماوي) والظلال لراحة عينيك.</p>
@@ -279,46 +342,38 @@
 
         <!-- Feature 3 -->
         <div class="feature-card">
-          <div class="feature-icon-box icon-cyan">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
-              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
-            </svg>
+          <div class="feature-icon-box icon-blue">
+            <span class="feature-emoji">📥</span>
           </div>
           <h3>تنزيل أوفلاين مع الترجمة التلقائية</h3>
-          <p>حمّل الأفلام والحلقات بضغطة زر مع سحب ملفات الترجمة العربية والإنجليزية الرسمية تلقائياً للمشاهدة بدون إنترنت في أي مكان.</p>
+          <p>حمّل الأفلام والحلقات بضغطة زر واحدة مع سحب ملفات الترجمة العربية والإنجليزية الرسمية تلقائياً للمشاهدة بدون إنترنت في أي مكان.</p>
         </div>
 
         <!-- Feature 4 -->
         <div class="feature-card">
           <div class="feature-icon-box icon-emerald">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-            </svg>
+            <span class="feature-emoji">🛡️</span>
           </div>
-          <h3>صفر إعلانات مزعجة</h3>
-          <p>متعة مشاهدة نقية 100%؛ بدون نوافذ منبثقة، ولا مقاطعات إعلانية، ولا بنرات مشتتة تعكر صفو الفيلم أو الحلقة.</p>
+          <h3>صفر إعلانات مزعجة 100%</h3>
+          <p>متعة مشاهدة نقية بدون أي إعلانات منبثقة، ولا مقاطعات، ولا نوافذ مشتتة تعكر صفو الفيلم أو الحلقة.</p>
         </div>
 
         <!-- Feature 5 -->
         <div class="feature-card">
-          <div class="feature-icon-box icon-blue">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
-              <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"/>
-            </svg>
+          <div class="feature-icon-box icon-rose">
+            <span class="feature-emoji">🎯</span>
           </div>
           <h3>دقة تامة في المواسم والحلقات</h3>
-          <p>فرز وترقيم سليم للمواسم والحلقات بدون خربطة في الأعداد، مع ربط دقيق لكل حلقة بسيرفراتها الأصلية بدقة 1080p FHD.</p>
+          <p>فرز وترقيم سليم لكل موسم وحلقة بدون خربطة في الأعداد، مع ربط دقيق لكل حلقة بسيرفراتها الأصلية بدقة 1080p FHD.</p>
         </div>
 
         <!-- Feature 6 -->
         <div class="feature-card">
-          <div class="feature-icon-box icon-purple">
-            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
-              <path d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07 0-5.18-3.95-9.45-9-9.95zM12 19c-3.87 0-7-3.13-7-7 0-3.53 2.61-6.43 6-6.92V2.05c-5.05.5-9 4.77-9 9.95 0 5.52 4.48 10 10 10 2.21 0 4.25-.72 5.9-1.94l-2.14-1.78C14.61 18.72 13.36 19 12 19z"/>
-            </svg>
+          <div class="feature-icon-box icon-amber">
+            <span class="feature-emoji">⚡</span>
           </div>
           <h3>سرعة فائقة وكاش ذكي فوري</h3>
-          <p>تحميل البوسترات والمعلومات فوراً بأجزاء من الثانية مع استهلاك خفيف جداً لذاكرة الهاتف والبطارية والإنترنت.</p>
+          <p>تحميل البوسترات والمعلومات فوراً بأجزاء من الثانية مع استهلاك خفيف جداً لذاكرة الهاتف والبطارية والبيانات.</p>
         </div>
 
       </div>
@@ -330,35 +385,77 @@
     <div class="container">
       <div class="specs-box">
         <div class="spec-stat">
+          <span class="stat-icon">📺</span>
           <span class="stat-value">1080p</span>
-          <span class="stat-label">أعلى جودة بث FHD</span>
+          <span class="stat-label">أعلى جودة بث FHD أصلية</span>
         </div>
         <div class="spec-stat">
+          <span class="stat-icon">📦</span>
           <span class="stat-value">66 MB</span>
-          <span class="stat-label">حجم التطبيق الخفيف</span>
+          <span class="stat-label">حجم خفيف وتثبيت سريع</span>
         </div>
         <div class="spec-stat">
+          <span class="stat-icon">🚀</span>
           <span class="stat-value">v1.2.0</span>
-          <span class="stat-label">الإصدار الرسمي الأخير</span>
+          <span class="stat-label">أحدث إصدار رسمي مستقر</span>
         </div>
         <div class="spec-stat">
+          <span class="stat-icon">🔒</span>
           <span class="stat-value">100%</span>
-          <span class="stat-label">آمن ومجاني بالكامل</span>
+          <span class="stat-label">آمن ومجاني بدون اشتراك</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Bottom Download Action Section -->
+  <!-- Quick 3-Step Install Guide (دليل التثبيت السريع) -->
+  <section class="install-steps-section" id="steps">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          خطوات بسيطة
+        </span>
+        <h2 class="section-title">كيفية تثبيت التطبيق على هاتفك</h2>
+        <p class="section-subtitle">ثلاث خطوات سهلة تفصلك عن أكبر مكتبة سينمائية مجانية</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-icon">📥</div>
+          <h4 class="step-title">تحميل ملف APK</h4>
+          <p class="step-desc">اضغط على زر التحميل المباشر لتحميل ملف <code>CinemaFox.apk</code> على هاتفك في ثوانٍ.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-icon">⚙️</div>
+          <h4 class="step-title">السماح بالتثبيت</h4>
+          <p class="step-desc">إذا طُلب منك، وافق على "التثبيت من هذا المصدر" في إعدادات الأمان الخاصة بجهازك.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-icon">🍿</div>
+          <h4 class="step-title">ابدأ المشاهدة!</h4>
+          <p class="step-desc">افتح التطبيق واستمتع بآلاف الأفلام والمسلسلات والأنمي بجودة فائقة وبدون أي إعلانات.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Download Action Banner (HBO Max Cinematic Banner) -->
   <section class="download-section" id="download">
     <div class="container">
       <div class="download-banner">
         <div class="download-banner-glow"></div>
+        <span class="banner-badge">🔥 الإصدار الأحدث متوفر الآن</span>
         <h2 class="banner-title">جاهز للارتقاء بتجربة المشاهدة؟</h2>
-        <p class="banner-desc">حمّل تطبيق سينما فوكس APK الآن مجاناً وثبّته على هاتفك أو جهاز التلفاز بنقرة زر واحدة.</p>
+        <p class="banner-desc">حمّل تطبيق سينما فوكس APK الآن مجاناً وثبّته على هاتفك أو شاشتك الذكية بنقرة زر واحدة وابدأ الاستمتاع.</p>
         
         <div class="banner-actions">
-          <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.0/CinemaFox.apk" class="btn-primary-download" download>
+          <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.0/CinemaFox.apk" class="btn-hbo-primary" download>
             <div class="btn-icon">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
@@ -366,7 +463,7 @@
             </div>
             <div class="btn-text">
               <span class="btn-main-label">تحميل التطبيق الآن (CinemaFox.apk)</span>
-              <span class="btn-sub-label">رابط مباشر وسريع من GitHub Releases • 66 MB</span>
+              <span class="btn-sub-label">رابط مباشر وسريع من سيرفرات GitHub • الحجم 66 MB</span>
             </div>
           </a>
         </div>
@@ -374,7 +471,7 @@
         <div class="banner-meta">
           <span>✓ متوافق مع كافة أجهزة Android 7.0 حتى 15</span>
           <span>•</span>
-          <span>✓ فحص أمان كامل بدون برمجيات خبيثة</span>
+          <span>✓ فحص أمان كامل 100% بدون برمجيات خبيثة</span>
         </div>
       </div>
     </div>
@@ -387,11 +484,19 @@
         <img src="assets/images/logo.png" alt="سينما فوكس" class="brand-logo-small">
         <span class="footer-title">سينما فوكس | Cinema Fox</span>
       </div>
-      <p class="footer-copy">جميع الحقوق محفوظة © 2026 سينما فوكس. منصة ترفيهية متكاملة لمشاهدة الأفلام والمسلسلات.</p>
+      <p class="footer-copy">جميع الحقوق محفوظة © 2026 سينما فوكس. منصة ترفيهية متكاملة لمشاهدة الأفلام والمسلسلات والأنمي.</p>
       <div class="footer-links">
-        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site" target="_blank" rel="noopener">مستودع GitHub</a>
-        <a href="#download">رابط التحميل المباشر</a>
-        <a href="#">العودة للأعلى ↑</a>
+        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <span>مستودع GitHub</span>
+        </a>
+        <a href="#download">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+          <span>رابط التحميل المباشر</span>
+        </a>
+        <a href="#">
+          <span>العودة للأعلى ↑</span>
+        </a>
       </div>
     </div>
   </footer>
