@@ -112,12 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Navbar background change on scroll
   window.addEventListener('scroll', () => {
     const nav = document.querySelector('.navbar');
-    if (window.scrollY > 40) {
-      nav.style.background = 'rgba(12, 2, 4, 0.75)';
-      nav.style.boxShadow = '0 10px 30px rgba(0,0,0,0.6)';
-    } else {
-      nav.style.background = 'var(--glass-bg)';
-      nav.style.boxShadow = '0 20px 45px rgba(0, 0, 0, 0.45)';
+    if (nav) {
+      if (window.scrollY > 30) {
+        nav.style.background = 'rgba(8, 12, 20, 0.95)';
+        nav.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.7)';
+      } else {
+        nav.style.background = 'rgba(11, 15, 25, 0.82)';
+        nav.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.5)';
+      }
     }
   });
 });
