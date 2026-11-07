@@ -430,6 +430,58 @@ body {
   transform: translateY(2px);
 }
 
+.btn-hero-windows {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #0078D7 0%, #005A9E 50%, #003E73 100%);
+  border-radius: 99px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  text-decoration: none;
+  color: #FFFFFF;
+  box-shadow: 0 12px 36px rgba(0, 120, 215, 0.55), inset 0 1px 1px rgba(255, 255, 255, 0.4);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  max-width: 92vw;
+}
+
+.btn-hero-windows:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: linear-gradient(135deg, #0086F0 0%, #0066B3 50%, #004580 100%);
+  box-shadow: 0 16px 48px rgba(0, 120, 215, 0.75), inset 0 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.btn-hero-windows:hover .btn-hero-download-badge {
+  transform: translateY(2px);
+}
+
+.btn-hero-icon.windows-glow {
+  background: rgba(0, 0, 0, 0.35);
+  color: #00ADEF;
+  box-shadow: 0 0 16px rgba(0, 173, 239, 0.45);
+}
+
+.btn-hbo-windows {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 28px;
+  background: linear-gradient(135deg, #0078D7 0%, #005A9E 100%);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  color: #FFFFFF;
+  box-shadow: 0 10px 30px rgba(0, 120, 215, 0.45);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-hbo-windows:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 40px rgba(0, 120, 215, 0.65);
+  background: linear-gradient(135deg, #0086F0 0%, #0066B3 100%);
+}
+
 .btn-hero-secondary:hover .btn-hero-arrow {
   transform: translateX(-3px);
 }
