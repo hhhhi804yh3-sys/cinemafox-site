@@ -42,7 +42,7 @@
   --text-secondary: #9DB0CE;
   --text-muted: #64748B;
   
-  --font-display: 'Elgharib', 'PingARLT', sans-serif;
+  --font-display: 'PingARLT', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'PingARLT', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
