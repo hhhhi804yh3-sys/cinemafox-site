@@ -18,66 +18,100 @@
     <!-- Top Navigation Bar -->
     <header class="site-header">
       <div class="container nav-inner">
-        <!-- Brand (Right in RTL) -->
+        <!-- Right: Logo & Branding -->
         <a href="#hero" class="nav-brand">
-          <img src="assets/images/logo.png" alt="سينما فوكس" class="brand-logo-img">
-          <span class="brand-title">سينما فوكس</span>
+          <img src="assets/images/logo.png" alt="شعار سينما فوكس" class="brand-logo-img">
+          <div class="brand-text">
+            <span class="brand-title">سينما فوكس</span>
+            <span class="brand-sub">CINEMA FOX</span>
+          </div>
         </a>
 
-        <!-- Center Menu Links -->
-        <nav>
-          <ul class="nav-menu">
-            <li><a href="#hero">الرئيسية</a></li>
-            <li><a href="#discovery">المحتوى</a></li>
-            <li><a href="#experience">التطبيق</a></li>
-            <li><a href="#features">المميزات</a></li>
-            <li><a href="#install">التثبيت</a></li>
-            <li><a href="#faq">الأسئلة الشائعة</a></li>
-          </ul>
+        <!-- Center: Navigation Links -->
+        <nav class="nav-links">
+          <a href="#discovery" class="nav-link">اكتشف التجربة</a>
+          <a href="#install" class="nav-link">طريقة التثبيت</a>
+          <a href="#features" class="nav-link">المميزات</a>
+          <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
         </nav>
 
-        <!-- Left CTA -->
+        <!-- Left: Red CTA Button -->
         <div class="nav-action">
-          <a href="#download" class="btn-primary-red btn-nav-small">تحميل التطبيق</a>
+          <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox.apk" class="btn-primary-red btn-nav" download>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+            <span>تحميل APK</span>
+          </a>
         </div>
       </div>
     </header>
 
-    <!-- Hero Content -->
-    <div class="container hero-body">
-      <span class="hero-tagline">الإصدار الرسمي v1.2.2 • منصة السينما الأولى</span>
-      
-      <h1 class="hero-main-title">كل قصة تستحق أن تعيشها.</h1>
-      
-      <p class="hero-description">
-        منصة سينما فوكس لمشاهدة وتحميل أحدث الأفلام والمسلسلات بجودة 1080p FHD الأصلية مع ترجمة عربية احترافية وبدون أي إعلانات.
-      </p>
+    <!-- Hero Body (Right Aligned Content) -->
+    <div class="container hero-container">
+      <div class="hero-content">
+        <!-- Version pill -->
+        <div class="hero-pill-badge">
+          <span class="hero-pill-line"></span>
+          <span class="hero-pill-text">Android • v1.2.2</span>
+        </div>
 
-      <!-- 3 Buttons in Exact Specified Order -->
-      <div class="hero-buttons-group">
-        <!-- 1. تحميل للكمبيوتر -->
-        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox_Windows_Setup.exe" class="btn-secondary-dark hero-btn-pc" download>
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-            <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4h-13.051M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.802"/>
-          </svg>
-          <span>تحميل للكمبيوتر</span>
-        </a>
+        <!-- Main Title -->
+        <h1 class="hero-main-title">
+          كل قصة تستحق<br>أن تعيشها.
+        </h1>
 
-        <!-- 2. تحميل التطبيق للأندرويد -->
-        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox.apk" class="btn-primary-red hero-btn-android" download>
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-            <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m-11.046 0c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5898 8.4026 13.854 8 12 8s-3.5898.4026-5.1368 1.1497L4.8409 5.6467a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396"/>
-          </svg>
-          <span>تحميل التطبيق للأندرويد</span>
-        </a>
+        <!-- Subtitle -->
+        <p class="hero-description">
+          أفلام، مسلسلات وأنمي في عالم واحد. شاهد مع سينما فوكس، أو حمّل قصتك التالية وخذها معك.
+        </p>
 
-        <!-- 3. اكتشف التجربة -->
-        <a href="#discovery" class="btn-outline-clean">
-          <span>اكتشف التجربة</span>
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-            <path d="M12 16l-6-6h12z"/>
-          </svg>
-        </a>
+        <!-- 3 Action Buttons in Exact Figma Order -->
+        <div class="hero-buttons-row">
+          <!-- 1. تحميل للكمبيوتر -->
+          <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox_Windows_Setup.exe" class="btn-primary-red btn-hero btn-pc" download>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+            <span>تحميل للكمبيوتر</span>
+          </a>
+
+          <!-- 2. تحميل التطبيق للأندرويد -->
+          <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox.apk" class="btn-primary-red btn-hero btn-android" download>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+            <span>تحميل التطبيق للأندرويد</span>
+          </a>
+
+          <!-- 3. اكتشف التجربة -->
+          <a href="#discovery" class="btn-outline-dark btn-hero btn-discover">
+            <span>اكتشف التجربة</span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Meta info -->
+        <div class="hero-meta-info">
+          APK مباشر • 74 MB • Android 7.0+ • v1.2.2
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Specs Strip -->
+    <div class="hero-bottom-bar">
+      <div class="container hero-bar-inner">
+        <div class="bar-item">صور وأعمال تصوّرية لمعاينة التجربة</div>
+        <div class="bar-divider"></div>
+        <div class="bar-item">ترجمة قابلة للتخصيص</div>
+        <div class="bar-divider"></div>
+        <div class="bar-item">تحميل للمشاهدة بلا إنترنت</div>
+        <div class="bar-divider"></div>
+        <div class="bar-item">جودة تصل إلى 1080p</div>
+        <div class="bar-divider"></div>
+        <div class="bar-item">مجاني وبدون إعلانات</div>
       </div>
     </div>
   </section>
@@ -87,74 +121,88 @@
        =================================================== -->
   <section class="discovery-section" id="discovery">
     <div class="container">
-      <div class="section-head">
-        <h2 class="section-title-large">عالم أكبر من قائمة مشاهدتك.</h2>
-        <p class="section-desc-light">آلاف العناوين العالمية والمحلية بانتظارك، من أحدث الإصدارات السينمائية إلى روائع المسلسلات الكلاسيكية.</p>
+      <div class="section-tag-red">قصة لكل مزاج</div>
+      
+      <div class="discovery-header">
+        <div class="discovery-title-wrap">
+          <h2 class="section-title">عالم أكبر من قائمة مشاهدتك.</h2>
+          <p class="section-subtitle">من عوالم الخيال إلى حكايات الواقع. استكشف الأفلام والمسلسلات والأنمي من مكان واحد.</p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="discovery-tabs">
+          <button class="tab-link active" data-tab="movies">أفلام</button>
+          <button class="tab-link" data-tab="series">مسلسلات</button>
+          <button class="tab-link" data-tab="anime">أنمي</button>
+          <button class="tab-link" data-tab="cartoon">كرتون</button>
+        </div>
       </div>
 
-      <!-- Categories Filter Tabs -->
-      <div class="category-filter-pills">
-        <button class="filter-btn active" data-filter="all">الكل</button>
-        <button class="filter-btn" data-filter="movies">أفلام هوليوود</button>
-        <button class="filter-btn" data-filter="series">مسلسلات عالمية</button>
-        <button class="filter-btn" data-filter="anime">أنميشن وكرتون</button>
-        <button class="filter-btn" data-filter="kdrama">دراما كورية وآسيوية</button>
-        <button class="filter-btn" data-filter="arabic">أعمال عربية</button>
-      </div>
-
-      <!-- The 6 Authentic Movie Posters in 1 Row -->
-      <div class="posters-six-grid">
+      <!-- 6 Posters Row -->
+      <div class="posters-grid">
         <!-- 1. Dexter -->
-        <div class="poster-box" data-cat="series">
-          <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/8dd88b1e1f69555366b5bdbad1d5d313.jpg" alt="Dexter" loading="lazy">
-          <div class="poster-caption">
-            <span class="poster-name">Dexter</span>
-            <span class="poster-meta">مسلسل • 8.6 ★</span>
+        <div class="poster-card">
+          <div class="poster-image-wrap">
+            <img src="assets/images/poster_dexter_hd.jpg" alt="Dexter" class="poster-img" loading="lazy">
+          </div>
+          <div class="poster-details">
+            <h3 class="poster-title">Dexter</h3>
+            <span class="poster-meta">مسلسل • 2006</span>
           </div>
         </div>
 
         <!-- 2. Breaking Bad -->
-        <div class="poster-box" data-cat="series">
-          <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/d10dfae65c78f3ceb592ba5772bab973.jpg" alt="Breaking Bad" loading="lazy">
-          <div class="poster-caption">
-            <span class="poster-name">Breaking Bad</span>
-            <span class="poster-meta">مسلسل • 9.5 ★</span>
+        <div class="poster-card">
+          <div class="poster-image-wrap">
+            <img src="assets/images/poster_breaking_bad_hd.jpg" alt="Breaking Bad" class="poster-img" loading="lazy">
+          </div>
+          <div class="poster-details">
+            <h3 class="poster-title">Breaking Bad</h3>
+            <span class="poster-meta">مسلسل • 2008</span>
           </div>
         </div>
 
         <!-- 3. Game of Thrones -->
-        <div class="poster-box" data-cat="series">
-          <img src="https://pbcdnw.aoneroom.com/image/2025/12/04/56be9215afed5148ace0704623a0ad56.jpg" alt="Game of Thrones" loading="lazy">
-          <div class="poster-caption">
-            <span class="poster-name">Game of Thrones</span>
-            <span class="poster-meta">مسلسل • 9.2 ★</span>
+        <div class="poster-card">
+          <div class="poster-image-wrap">
+            <img src="assets/images/poster_got_hd.jpg" alt="Game of Thrones" class="poster-img" loading="lazy">
+          </div>
+          <div class="poster-details">
+            <h3 class="poster-title">Game of Thrones</h3>
+            <span class="poster-meta">مسلسل • 2011</span>
           </div>
         </div>
 
         <!-- 4. Oppenheimer -->
-        <div class="poster-box" data-cat="movies">
-          <img src="https://pbcdnw.aoneroom.com/image/2026/01/26/35adb669c1dea2cb4658aad7f44395d5.jpg" alt="Oppenheimer" loading="lazy">
-          <div class="poster-caption">
-            <span class="poster-name">Oppenheimer</span>
-            <span class="poster-meta">فيلم • 8.9 ★</span>
+        <div class="poster-card">
+          <div class="poster-image-wrap">
+            <img src="assets/images/poster_oppenheimer_hd.jpg" alt="Oppenheimer" class="poster-img" loading="lazy">
+          </div>
+          <div class="poster-details">
+            <h3 class="poster-title">Oppenheimer</h3>
+            <span class="poster-meta">فيلم • 2023</span>
           </div>
         </div>
 
         <!-- 5. Interstellar -->
-        <div class="poster-box" data-cat="movies">
-          <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/f1aeaf2671b8b1589b5a56b40e730f1b.jpg" alt="Interstellar" loading="lazy">
-          <div class="poster-caption">
-            <span class="poster-name">Interstellar</span>
-            <span class="poster-meta">فيلم • 8.7 ★</span>
+        <div class="poster-card">
+          <div class="poster-image-wrap">
+            <img src="assets/images/poster_interstellar_hd.jpg" alt="Interstellar" class="poster-img" loading="lazy">
+          </div>
+          <div class="poster-details">
+            <h3 class="poster-title">Interstellar</h3>
+            <span class="poster-meta">فيلم • 2014</span>
           </div>
         </div>
 
         <!-- 6. Attack on Titan -->
-        <div class="poster-box" data-cat="anime">
-          <img src="https://pbcdnw.aoneroom.com/image/2026/01/27/2735770dff71711ed9ad492f40b5695d.jpg" alt="Attack on Titan" loading="lazy">
-          <div class="poster-caption">
-            <span class="poster-name">Attack on Titan</span>
-            <span class="poster-meta">أنمي • 9.1 ★</span>
+        <div class="poster-card">
+          <div class="poster-image-wrap">
+            <img src="assets/images/poster_aot_hd.jpg" alt="Attack on Titan" class="poster-img" loading="lazy">
+          </div>
+          <div class="poster-details">
+            <h3 class="poster-title">Attack on Titan</h3>
+            <span class="poster-meta">أنمي • 2013</span>
           </div>
         </div>
       </div>
@@ -165,40 +213,92 @@
        SECTION 3: APP EXPERIENCE (تجربة التطبيق - 1179px)
        =================================================== -->
   <section class="experience-section" id="experience">
-    <div class="container-wide">
-      <div class="two-col-layout">
-        <!-- Visual Column: App Screenshots -->
-        <div class="experience-visuals-col">
-          <div class="app-screen-frame">
-            <img src="assets/screenshots/photo_1_2026-11-02_18-35-59.jpg" alt="واجهة سينما فوكس الرئيسية" loading="lazy">
+    <div class="container experience-grid">
+      
+      <!-- Left Column: 3 Authentic App Mockups -->
+      <div class="experience-visuals">
+        <!-- Mockup 1: Discover Grid -->
+        <div class="phone-card phone-card-1">
+          <div class="mockup-header-bar">
+            <span class="mock-dot"></span>
+            <span class="mock-title">سينما فوكس</span>
           </div>
-          <div class="app-screen-frame offset-down">
-            <img src="assets/screenshots/photo_2_2026-11-02_18-35-59.jpg" alt="تفاصيل العمل والمشاهدة" loading="lazy">
+          <div class="mockup-screen-content">
+            <div class="mock-hero-banner" style="background-image: url('assets/images/poster_oppenheimer_hd.jpg');">
+              <span class="mock-badge">أحدث الإضافات</span>
+              <h4>Oppenheimer</h4>
+            </div>
+            <div class="mock-posters-mini">
+              <img src="assets/images/poster_dexter_hd.jpg" alt="Dexter">
+              <img src="assets/images/poster_breaking_bad_hd.jpg" alt="Breaking Bad">
+              <img src="assets/images/poster_got_hd.jpg" alt="GOT">
+            </div>
           </div>
         </div>
 
-        <!-- Text Column -->
-        <div class="experience-text-col">
-          <span class="section-kicker">تصميم متقن وتجربة سينمائية</span>
-          <h2 class="section-title-large">أقل بحثاً. أكثر اندماجاً.</h2>
-          <p class="lead-paragraph">
-            صُممت واجهة سينما فوكس لتضعك في قلب التجربة مباشرة. تنقل فوري بين الأقسام، بحث ذكي فائق السرعة، ومكتبة متكاملة تفهم ذوقك السينمائي وتصلك بما تحب بأقل عدد من النقرات.
-          </p>
+        <!-- Mockup 2: Movie Details -->
+        <div class="phone-card phone-card-2">
+          <div class="mockup-details-cover" style="background-image: url('assets/images/poster_dexter_hd.jpg');">
+            <div class="mockup-overlay"></div>
+            <div class="mockup-info">
+              <h3>Dexter</h3>
+              <p>مسلسل دراما وجريمة • 8 مواسم</p>
+              <div class="mock-action-btn">مشاهدة الآن</div>
+            </div>
+          </div>
+        </div>
 
-          <ul class="experience-checklist">
-            <li class="checklist-item">
-              <span class="check-bullet">✓</span>
-              <span>تصفح بديهي وسلس مخصص للشاشات الكبيرة والهواتف الذكية.</span>
-            </li>
-            <li class="checklist-item">
-              <span class="check-bullet">✓</span>
-              <span>تحديثات يومية فورية لجميع الحلقات ومواسم المسلسلات الجديدة.</span>
-            </li>
-            <li class="checklist-item">
-              <span class="check-bullet">✓</span>
-              <span>مشغل وسائط احترافي يدعم كافة صيغ الصوت والصورة والجودات.</span>
-            </li>
-          </ul>
+        <!-- Mockup 3: Player -->
+        <div class="phone-card phone-card-3">
+          <div class="mockup-player-screen" style="background-image: url('assets/images/poster_interstellar_hd.jpg');">
+            <div class="player-icon-center">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="#E52B34">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </div>
+            <div class="player-hud-bottom">
+              <span class="hud-time">42:15 / 2:49:00</span>
+              <span class="hud-quality">1080p FHD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Content & Features -->
+      <div class="experience-content">
+        <div class="section-tag-red">تجربة متكاملة</div>
+        <h2 class="section-title">أقل بحثاً.<br>أكثر اندماجاً.</h2>
+        <p class="section-subtitle">
+          واجهة صُممت لتختفي وتتركك مع القصة. تنقل سلس، تصنيفات ذكية، ووصول فوري لكل ما تريد مشاهدته دون تعقيد.
+        </p>
+
+        <div class="feature-bullets-list">
+          <!-- Item 1 -->
+          <div class="feature-bullet-item">
+            <span class="bullet-dot"></span>
+            <div class="bullet-text">
+              <h4 class="bullet-title">مشاهدة عالية الدقة</h4>
+              <p class="bullet-desc">جودات متعددة تصل إلى 1080p FHD مع مشغل متطور يدعم كافة التنسيقات.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="feature-bullet-item">
+            <span class="bullet-dot"></span>
+            <div class="bullet-text">
+              <h4 class="bullet-title">إدارة ذكية للتنزيل</h4>
+              <p class="bullet-desc">تابع سرعة التحميل، رتب الحلقات، وشاهد في أي مكان وبأي وقت بلا قيود.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="feature-bullet-item">
+            <span class="bullet-dot"></span>
+            <div class="bullet-text">
+              <h4 class="bullet-title">مزامنة وتخصيص كامل</h4>
+              <p class="bullet-desc">تحكم كامل في خطوط وألوان الترجمة وحفظ تلقائي لنقطة التوقف.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -209,190 +309,203 @@
        =================================================== -->
   <section class="features-section" id="features">
     <div class="container">
-      <div class="section-head text-center" style="text-align: center;">
-        <h2 class="section-title-large">تفاصيل تصنع فرق المشاهدة.</h2>
-        <p class="section-desc-light">كل ميزة تم بناؤها لتمنحك تجربة مشاهدة سينمائية نقية دون أي تنازلات.</p>
-      </div>
-
-      <!-- 3 Features Grid: بلا إعلانات, مجاني, 1080p -->
-      <div class="features-three-grid">
-        <!-- 1. بلا إعلانات -->
-        <div class="feature-box">
-          <div class="feature-icon-badge">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
-            </svg>
-          </div>
-          <h3 class="feature-title">بلا إعلانات</h3>
-          <p class="feature-description">
-            مشاهدة متواصلة ونقية 100% بدون أي فواصل إعلانية أو نوافذ منبثقة تعكر متعتك السينمائية أثناء العرض.
-          </p>
+      <h2 class="section-title text-center">تفاصيل تصنع فرق المشاهدة.</h2>
+      
+      <div class="features-columns-row">
+        <!-- Col 1: 1080p -->
+        <div class="feature-col">
+          <div class="feature-big-num">1080p</div>
+          <h3 class="feature-col-title">دقة وضوح فائقة</h3>
+          <p class="feature-col-desc">بث مباشر بأعلى جودة مع خوادم سريعة تضمن استقرار المشاهدة وسلاسة العرض دون تقطيع.</p>
         </div>
 
-        <!-- 2. مجاني -->
-        <div class="feature-box">
-          <div class="feature-icon-badge">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-              <path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.65-.5-.65C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/>
-            </svg>
-          </div>
-          <h3 class="feature-title">مجاني بالكامل</h3>
-          <p class="feature-description">
-            وصول كامل وغير مقيد لكافة الأعمال والمواسم دون أي اشتراكات شهرية أو بطاقات مصرفية أو متطلبات دفع.
-          </p>
+        <!-- Col 2: مجاني -->
+        <div class="feature-col">
+          <div class="feature-big-num">مجاني</div>
+          <h3 class="feature-col-title">للجميع دائماً</h3>
+          <p class="feature-col-desc">استمتع بجميع الأعمال الحصرية بدون أي اشتراكات شهرية، بطاقات دفع، أو رسوم مخفية.</p>
         </div>
 
-        <!-- 3. 1080p -->
-        <div class="feature-box">
-          <div class="feature-icon-badge">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-              <path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-8-3h2V8h-2v2h-1.5V8h-2v6h2v-2H13v2zM6 8h2.5c.83 0 1.5.67 1.5 1.5v3c0 .83-.67 1.5-1.5 1.5H6V8zm1.5 4.5H8v-3h-.5v3z"/>
-            </svg>
-          </div>
-          <h3 class="feature-title">دقة 1080p FHD</h3>
-          <p class="feature-description">
-            بث فائق الوضوح بدقة FHD مع دعم معدلات إطارات سينمائية وسيرفرات سحابية فائقة السرعة تضمن انسيابية العرض.
-          </p>
+        <!-- Col 3: بلا إعلانات -->
+        <div class="feature-col">
+          <div class="feature-big-num">بلا إعلانات</div>
+          <h3 class="feature-col-title">تجربة نقية تماماً</h3>
+          <p class="feature-col-desc">لا نوافذ منبثقة، لا فواصل مزعجة، فقط أنت والعمل الذي تحبه من اللحظة الأولى للنهاية.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ===================================================
-       SECTION 5: OFFLINE VIEWING & SUBS (610px)
+       SECTION 5: OFFLINE VIEWING (المشاهدة دون إنترنت - 610px)
        =================================================== -->
   <section class="offline-section" id="offline">
-    <div class="container-wide">
-      <div class="offline-layout">
-        <!-- Text Column -->
-        <div class="offline-text-col">
-          <span class="section-kicker">مشاهدة بلا حدود وبلا إنترنت</span>
-          <h2 class="section-title-large">بعيداً عن الشبكة. قريباً من قصتك.</h2>
-          <p class="lead-paragraph">
-            حمّل أفلامك ومسلسلاتك المفضلة بكبسة زر واحدة لمشاهدتها في السفر أو أوقات انقطاع الإنترنت، مع ترجمة عربية احترافية متزامنة بالملي ثانية وإمكانية تخصيص الخط والحجم والألوان بما يناسب راحتك البصرية.
-          </p>
+    <div class="container offline-grid">
+      
+      <!-- Right: Content -->
+      <div class="offline-content">
+        <div class="section-tag-red">مشاهدة بلا حدود</div>
+        <h2 class="section-title">بعيداً عن الشبكة.<br>قريباً من قصتك.</h2>
+        <p class="section-subtitle">
+          حمّل مواسم كاملة أو حلقات فردية بنقرة واحدة. شاهد أعمالك المفضلة أثناء السفر أو في الأماكن التي تفتقر للاتصال مع دعم الترجمة الكامل.
+        </p>
 
-          <ul class="experience-checklist">
-            <li class="checklist-item">
-              <span class="check-bullet">✓</span>
-              <span>تنزيل فائق السرعة بدقة 1080p FHD مع ضغط ملفات ذكي.</span>
-            </li>
-            <li class="checklist-item">
-              <span class="check-bullet">✓</span>
-              <span>ترجمة عربية مدمجة وقابلة للتخصيص الكامل لراحة العين.</span>
-            </li>
-            <li class="checklist-item">
-              <span class="check-bullet">✓</span>
-              <span>استئناف المشاهدة تلقائياً من الدقيقة والثانية التي توقفت عندها.</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Visual Column -->
-        <div class="offline-visual-col">
-          <img src="assets/screenshots/photo_4_2026-11-02_18-35-59.jpg" alt="معاينة مشغل سينما فوكس والترجمة" loading="lazy">
+        <div class="offline-sub-feature">
+          <h4 class="sub-feature-title">كل حلقة في موعدها</h4>
+          <p class="sub-feature-desc">إمكانية تحديد الجودة وحجم التحميل المناسب لذاكرة هاتفك مع إمكانية استئناف التحميل في أي وقت.</p>
         </div>
       </div>
+
+      <!-- Left: Download Cards -->
+      <div class="offline-cards-container">
+        <!-- Card 1 -->
+        <div class="download-card">
+          <div class="card-thumb" style="background-image: url('assets/images/poster_dexter_hd.jpg');"></div>
+          <div class="card-info">
+            <h4 class="card-show">Dexter Season 01</h4>
+            <span class="card-episode">الحلقة 1 • 45 دقيقة • 1080p FHD</span>
+          </div>
+          <div class="card-badge">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="#4CAF50">
+              <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
+            </svg>
+            <span>مكتمل التحميل</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="download-card">
+          <div class="card-thumb" style="background-image: url('assets/images/poster_dexter_hd.jpg');"></div>
+          <div class="card-info">
+            <h4 class="card-show">Dexter Season 01</h4>
+            <span class="card-episode">الحلقة 2 • 50 دقيقة • 1080p FHD</span>
+          </div>
+          <div class="card-badge">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="#4CAF50">
+              <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
+            </svg>
+            <span>مكتمل التحميل</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="download-card">
+          <div class="card-thumb" style="background-image: url('assets/images/poster_dexter_hd.jpg');"></div>
+          <div class="card-info">
+            <h4 class="card-show">Dexter Season 01</h4>
+            <span class="card-episode">الحلقة 3 • 48 دقيقة • 1080p FHD</span>
+          </div>
+          <div class="card-badge">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="#4CAF50">
+              <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
+            </svg>
+            <span>مكتمل التحميل</span>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
   <!-- ===================================================
        SECTION 6: DOWNLOAD APP (تحميل التطبيق - 785px)
        =================================================== -->
-  <section class="download-app-section" id="download">
-    <div class="container-wide">
-      <div class="download-app-grid">
-        <!-- Content Column -->
-        <div class="download-content-col">
-          <div class="dl-brand-badge">
-            <img src="assets/images/logo.png" alt="شعار سينما فوكس" class="dl-brand-img">
-            <span class="dl-brand-name">سينما فوكس | Cinema Fox</span>
-          </div>
+  <section class="download-section" id="download">
+    <div class="container download-grid">
+      
+      <!-- Right Column: Download Actions -->
+      <div class="download-main-wrap">
+        <img src="assets/images/logo.png" alt="سينما فوكس" class="download-brand-logo">
+        <h2 class="section-title">ليلتك السينمائية<br>تبدأ من هنا.</h2>
+        <p class="section-subtitle">
+          انضم إلى مجتمع سينما فوكس واستمتع بأكبر مكتبة عربية وعالمية للأفلام والمسلسلات مجاناً وبأعلى جودة.
+        </p>
 
-          <h2 class="section-title-large">ليلتك السينمائية تبدأ من هنا.</h2>
-          <p class="section-desc-light">اختر نظام تشغيلك وحمّل النسخة الرسمية المستقرة الآن بضغطة زر واحدة.</p>
-
-          <div class="download-cards-stack">
-            <!-- 1. Android Card -->
-            <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox.apk" class="download-option-card" download>
-              <div class="dl-option-info">
-                <div class="dl-option-icon android">
-                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-                    <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m-11.046 0c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5898 8.4026 13.854 8 12 8s-3.5898.4026-5.1368 1.1497L4.8409 5.6467a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396"/>
-                  </svg>
-                </div>
-                <div>
-                  <div class="dl-title-text">تحميل التطبيق للأندرويد (APK)</div>
-                  <div class="dl-specs-text">v1.2.2 • 74 MB • Android 7.0+ • تثبيت مباشر</div>
-                </div>
-              </div>
-              <span class="btn-primary-red dl-action-pill">تحميل الآن</span>
-            </a>
-
-            <!-- 2. Windows Card -->
-            <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox_Windows_Setup.exe" class="download-option-card" download>
-              <div class="dl-option-info">
-                <div class="dl-option-icon windows">
-                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                    <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4h-13.051M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.802"/>
-                  </svg>
-                </div>
-                <div>
-                  <div class="dl-title-text">تحميل نسخة الكمبيوتر (Windows EXE)</div>
-                  <div class="dl-specs-text">v1.2.2 • 16 MB • Windows 10 / 11 • مثبت سريع</div>
-                </div>
-              </div>
-              <span class="btn-secondary-dark dl-action-pill">تحميل الآن</span>
-            </a>
-          </div>
-
-          <!-- Telegram Official Community Row -->
-          <a href="https://t.me/Cinemifox" target="_blank" rel="noopener" class="telegram-channel-card">
+        <!-- Download Buttons -->
+        <div class="download-cta-group">
+          <!-- Android Direct Button -->
+          <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox.apk" class="btn-primary-red btn-action-big" download>
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
             </svg>
-            <span>انضم لقناة تليجرام الرسمية <strong>@Cinemifox</strong> لمتابعة أحدث الإضافات والتحديثات.</span>
+            <span>تحميل للأندرويد (APK مباشر)</span>
+          </a>
+
+          <!-- Windows PC Button -->
+          <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox_Windows_Setup.exe" class="btn-primary-red btn-action-big" download>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+            <span>تحميل للكمبيوتر (Windows EXE)</span>
           </a>
         </div>
 
-        <!-- Visual Column -->
-        <div class="download-visual-col">
-          <img src="assets/screenshots/photo_5_2026-11-02_18-35-59.jpg" alt="تطبيق سينما فوكس" loading="lazy">
+        <!-- Telegram channel link -->
+        <a href="https://t.me/Cinemifox" target="_blank" rel="noopener" class="telegram-link-pill">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+          </svg>
+          <span>انضم لقناتنا على تليجرام @Cinemifox لمتابعة أحدث الإضافات</span>
+        </a>
+      </div>
+
+      <!-- Left Column: Specs Table -->
+      <div class="download-specs-card">
+        <h3 class="specs-card-title">معلومات الإصدار</h3>
+        <div class="specs-table">
+          <div class="spec-row">
+            <span class="spec-key">الإصدار الحالي</span>
+            <span class="spec-val">v1.2.2</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-key">حجم التطبيق (Android)</span>
+            <span class="spec-val">74 MB</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-key">النظام المدعوم</span>
+            <span class="spec-val">Android 7.0+</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-key">نوع الترخيص</span>
+            <span class="spec-val">مجاني 100%</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-key">التحميل</span>
+            <span class="spec-val">مباشر وسريع</span>
+          </div>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- ===================================================
-       SECTION 7: INSTALL STEPS (التثبيت - 485px)
+       SECTION 7: INSTALLATION (التثبيت - 485px)
        =================================================== -->
   <section class="install-section" id="install">
     <div class="container">
-      <div class="section-head text-center" style="text-align: center;">
-        <h2 class="section-title-large">ثلاث خطوات. ثم تبدأ الحكاية.</h2>
-        <p class="section-desc-light">تثبيت فوري وبسيط خلال ثوانٍ معدودة دون أي تعقيد.</p>
-      </div>
+      <h2 class="section-title text-center">ثلاث خطوات. ثم تبدأ الحكاية.</h2>
 
-      <div class="steps-three-grid">
+      <div class="steps-row">
         <!-- Step 1 -->
         <div class="step-card">
-          <div class="step-num-big">01</div>
-          <h3 class="step-title">تحميل الملف الرسمي</h3>
-          <p class="step-desc">اضغط على زر التحميل المباشر لنسخة الأندرويد (APK) أو مثبت الويندوز (EXE) من الروابط الرسمية المعتمدة.</p>
+          <div class="step-number">01</div>
+          <h3 class="step-title">حمّل ملف التطبيق</h3>
+          <p class="step-desc">اضغط على زر التحميل للحصول على ملف APK المباشر على جهازك الأندرويد بسرعة فائقة.</p>
         </div>
 
         <!-- Step 2 -->
         <div class="step-card">
-          <div class="step-num-big">02</div>
-          <h3 class="step-title">فتح ملف التثبيت</h3>
-          <p class="step-desc">افتح الملف على جهازك واتبع تعليمات التثبيت السريعة لمرة واحدة فقط دون الحاجة لأي برامج مساعدة.</p>
+          <div class="step-number">02</div>
+          <h3 class="step-title">اسمح بالتثبيت على هاتفك</h3>
+          <p class="step-desc">فعّل خيار التثبيت من مصادر غير معروفة من إعدادات الأمان إذا طُلب منك ذلك عند فتح الملف.</p>
         </div>
 
         <!-- Step 3 -->
         <div class="step-card">
-          <div class="step-num-big">03</div>
-          <h3 class="step-title">استمتع بعالمك السينمائي</h3>
-          <p class="step-desc">افتح التطبيق وابدأ بمشاهدة وتحميل آلاف الأفلام والمسلسلات المفضلة لديك مجاناً وبأعلى جودة ممكنة.</p>
+          <div class="step-number">03</div>
+          <h3 class="step-title">ابدأ بالمشاهدة فوراً</h3>
+          <p class="step-desc">افتح التطبيق واستمتع بآلاف الأفلام والمسلسلات الحصرية مباشرة بدون أي تسجيل حساب أو اشتراك.</p>
         </div>
       </div>
     </div>
@@ -402,128 +515,111 @@
        SECTION 8: FAQ (الأسئلة الشائعة - 768px)
        =================================================== -->
   <section class="faq-section" id="faq">
-    <div class="container">
-      <div class="faq-split-layout">
-        <!-- Title Column -->
-        <div class="faq-title-col">
-          <h2 class="section-title-large">أسئلتك، بوضوح.</h2>
-          <p class="section-desc-light">إجابات مباشرة على أكثر الاستفسارات شيوعاً حول سينما فوكس، التثبيت، وجودة البث والتحميل.</p>
+    <div class="container faq-grid">
+      
+      <!-- Right: Header -->
+      <div class="faq-header-side">
+        <h2 class="section-title">أسئلتك، بوضوح.</h2>
+        <p class="section-subtitle">كل ما تحتاج معرفته عن تطبيق سينما فوكس، التثبيت، والتحديثات.</p>
+      </div>
+
+      <!-- Left: Accordion -->
+      <div class="faq-accordion-list">
+        <!-- Q1 -->
+        <div class="faq-item active">
+          <div class="faq-question">
+            <span class="faq-q-text">هل التطبيق مجاني بالكامل؟</span>
+            <span class="faq-toggle-icon">−</span>
+          </div>
+          <div class="faq-answer">
+            <p>نعم، سينما فوكس مجاني تماماً 100% بدون أي اشتراكات أو رسوم مخفية، ولن نطلب منك أبداً بطاقة دفع.</p>
+          </div>
         </div>
 
-        <!-- Items Column -->
-        <div class="faq-items-list">
-          <!-- Q1 -->
-          <div class="faq-row active">
-            <button class="faq-question-btn" aria-expanded="true">
-              <span>هل سينما فوكس مجاني حقاً وبدون أي رسوم خفية؟</span>
-              <span class="faq-icon-arrow">▼</span>
-            </button>
-            <div class="faq-answer-collapse">
-              <div class="faq-answer-content">
-                <p>نعم، التطبيق مجاني 100% لكافة المستخدمين، ولا يتطلب أي اشتراك شهري أو تسجيل حساب أو بطاقة دفع أو أي رسوم خفية نهائياً.</p>
-              </div>
-            </div>
+        <!-- Q2 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="faq-q-text">هل يتوفر التطبيق لأجهزة الكمبيوتر؟</span>
+            <span class="faq-toggle-icon">+</span>
           </div>
-
-          <!-- Q2 -->
-          <div class="faq-row">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>كيف أقوم بتثبيت نسخة الكمبيوتر على نظام ويندوز؟</span>
-              <span class="faq-icon-arrow">▼</span>
-            </button>
-            <div class="faq-answer-collapse">
-              <div class="faq-answer-content">
-                <p>ببساطة قم بتحميل ملف المثبت CinemaFox_Windows_Setup.exe (بحجم 16 MB فقط)، وشغّل المثبت، وسيتم إنشاء اختصار مباشر على سطح المكتب وقائمة ابدأ تلقائياً.</p>
-              </div>
-            </div>
+          <div class="faq-answer">
+            <p>نعم، يتوفر إصدار رسمي مخصص لأجهزة الكمبيوتر بنظام Windows يعمل بسلاسة وسرعة فائقة وبدون الحاجة لمحاكي.</p>
           </div>
+        </div>
 
-          <!-- Q3 -->
-          <div class="faq-row">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>هل يدعم التطبيق التنزيل للمشاهدة بدون إنترنت؟</span>
-              <span class="faq-icon-arrow">▼</span>
-            </button>
-            <div class="faq-answer-collapse">
-              <div class="faq-answer-content">
-                <p>نعم، يحتوي التطبيق على مدير تنزيلات متطور مدمج يتيح حفظ الأفلام وحلقات المسلسلات بدقة 1080p FHD مع ملفات الترجمة العربية لمشاهدتها بدون نت في أي وقت.</p>
-              </div>
-            </div>
+        <!-- Q3 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="faq-q-text">كيف أقوم بتحديث التطبيق عند صدور نسخة جديدة؟</span>
+            <span class="faq-toggle-icon">+</span>
           </div>
-
-          <!-- Q4 -->
-          <div class="faq-row">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>ما هي الجودات وسرعات البث المتوفرة؟</span>
-              <span class="faq-icon-arrow">▼</span>
-            </button>
-            <div class="faq-answer-collapse">
-              <div class="faq-answer-content">
-                <p>يوفر التطبيق جودات متعددة تلقائية تناسب كافة سرعات الاتصال: 1080p FHD و 720p HD و 480p، مع تبديل سلس بدون تقطيع أثناء المشاهدة.</p>
-              </div>
-            </div>
+          <div class="faq-answer">
+            <p>يمكنك دائماً تحميل أحدث إصدار من موقعنا الرسمي أو عبر قناتنا الرسمية على تليجرام @Cinemifox فور صدور التحديث.</p>
           </div>
+        </div>
 
-          <!-- Q5 -->
-          <div class="faq-row">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>كيف يمكنني متابعة التحديثات والأعمال الجديدة؟</span>
-              <span class="faq-icon-arrow">▼</span>
-            </button>
-            <div class="faq-answer-collapse">
-              <div class="faq-answer-content">
-                <p>تتم إضافة وتحديث الحلقات والأفلام يومياً وبشكل تلقائي داخل التطبيق، كما يمكنك متابعة قناتنا الرسمية على تيليجرام @Cinemifox للحصول على كافة الأخبار والتحديثات الفورية.</p>
-              </div>
-            </div>
+        <!-- Q4 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="faq-q-text">هل يحتوي التطبيق على إعلانات مزعجة؟</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>لا، التطبيق مصمم ليمنحك تجربة سينمائية نقية خالية من الإعلانات المزعجة والنوافذ المنبثقة.</p>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="faq-item">
+          <div class="faq-question">
+            <span class="faq-q-text">ما هي الجودات المتوفرة للأعمال؟</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>تتوفر جودات متعددة تناسب جميع سرعات الإنترنت، بدءاً من 480p وحتى 1080p FHD مع إمكانية التحميل للمشاهدة بدون إنترنت.</p>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- ===================================================
-       SECTION 9: FINAL CTA & FOOTER (677px)
+       SECTION 9: FINAL CTA & FOOTER (المشهد التالي؟ - 677px)
        =================================================== -->
-  <section class="final-cta-section">
-    <div class="container cta-content-box">
-      <h2 class="cta-headline">المشهد التالي؟ على شاشتك.</h2>
-      <p class="cta-subtext">انضم إلى آلاف المشاهدين واستمتع بأضخم مكتبة سينمائية وترفيهية مجانية الآن.</p>
-      
-      <div class="cta-buttons-wrap">
-        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox.apk" class="btn-primary-red" download>
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-            <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m-11.046 0c-.5511 0-.9993-.4486-.9993-1.0001s.4482-.9993.9993-.9993c.551 0 .9992.4478.9992.9993s-.4482 1.0001-.9992 1.0001m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5898 8.4026 13.854 8 12 8s-3.5898.4026-5.1368 1.1497L4.8409 5.6467a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396"/>
-          </svg>
-          <span>تحميل للأندرويد (APK)</span>
-        </a>
+  <footer class="final-cta-section" id="footer">
+    <div class="container cta-center-box">
+      <h2 class="cta-title">المشهد التالي؟ على شاشتك.</h2>
+      <p class="cta-sub">أفلامك ومسلسلاتك بانتظارك. ابدأ المشاهدة الآن.</p>
 
-        <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox_Windows_Setup.exe" class="btn-secondary-dark" download>
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-            <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4h-13.051M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.802"/>
-          </svg>
-          <span>تحميل للكمبيوتر (EXE)</span>
-        </a>
-      </div>
+      <a href="https://github.com/hhhhi804yh3-sys/cinemafox-site/releases/download/v1.2.2/CinemaFox.apk" class="btn-primary-red btn-hero btn-cta-large" download>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+        </svg>
+        <span>تحميل التطبيق الآن</span>
+      </a>
     </div>
-  </section>
 
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="assets/images/logo.png" alt="سينما فوكس" class="footer-logo">
-        <span class="footer-brand-title">سينما فوكس | Cinema Fox</span>
+    <!-- Bottom Footer Bar -->
+    <div class="site-bottom-footer">
+      <div class="container footer-bar-inner">
+        <!-- Right: Logo & Name -->
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="سينما فوكس" class="footer-logo-img">
+          <span class="footer-brand-text">سينما فوكس</span>
+        </div>
+
+        <!-- Left: Quick Links -->
+        <div class="footer-nav">
+          <a href="#hero">الرئيسية</a>
+          <a href="#discovery">المحتوى</a>
+          <a href="#features">المميزات</a>
+          <a href="#install">التثبيت</a>
+          <a href="#faq">الأسئلة الشائعة</a>
+        </div>
       </div>
-
-      <ul class="footer-links">
-        <li><a href="#hero">الرئيسية</a></li>
-        <li><a href="#discovery">المحتوى</a></li>
-        <li><a href="#features">المميزات</a></li>
-        <li><a href="https://t.me/Cinemifox" target="_blank" rel="noopener">تيليجرام @Cinemifox</a></li>
-      </ul>
-
-      <div class="footer-copy">
-        © 2026 تطبيق سينما فوكس (Cinema Fox). جميع الحقوق محفوظة.
+      <div class="container copyright-text">
+        جميع الحقوق محفوظة © 2026 سينما فوكس. تم التصميم لتجربة سينمائية فريدة.
       </div>
     </div>
   </footer>

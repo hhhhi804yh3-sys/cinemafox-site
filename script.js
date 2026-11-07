@@ -1,78 +1,71 @@
-// Cinema Fox Landing Page Script (Figma 28-1964 Spec)
+/**
+ * Cinema Fox Official Site Script
+ * Animations & Interactivity
+ */
+
 document.addEventListener('DOMContentLoaded', () => {
+  // 1. FAQ Accordion Toggle (Smooth 200-250ms transition)
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const toggleIcon = item.querySelector('.faq-toggle-icon');
 
-  // 1. FAQ Accordion Toggle
-  const faqRows = document.querySelectorAll('.faq-row');
-  faqRows.forEach(row => {
-    const questionBtn = row.querySelector('.faq-question-btn');
-    questionBtn?.addEventListener('click', () => {
-      const isAlreadyActive = row.classList.contains('active');
-      
-      // Close all other open rows
-      faqRows.forEach(r => {
-        if (r !== row) {
-          r.classList.remove('active');
-          r.querySelector('.faq-question-btn')?.setAttribute('aria-expanded', 'false');
-        }
+    question.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+
+      // Close all items
+      faqItems.forEach(otherItem => {
+        otherItem.classList.remove('active');
+        const icon = otherItem.querySelector('.faq-toggle-icon');
+        if (icon) icon.textContent = '+';
       });
 
-      if (isAlreadyActive) {
-        row.classList.remove('active');
-        questionBtn.setAttribute('aria-expanded', 'false');
-      } else {
-        row.classList.add('active');
-        questionBtn.setAttribute('aria-expanded', 'true');
+      // If it wasn't active, open it
+      if (!isActive) {
+        item.classList.add('active');
+        if (toggleIcon) toggleIcon.textContent = '−';
       }
     });
   });
 
-  // 2. Category Filter Tabs in Section 2
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const posterBoxes = document.querySelectorAll('.poster-box');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const filter = btn.getAttribute('data-filter');
-      posterBoxes.forEach(box => {
-        const cat = box.getAttribute('data-cat');
-        if (filter === 'all' || cat === filter) {
-          box.style.display = 'block';
-          box.style.opacity = '1';
-        } else {
-          box.style.display = 'none';
-        }
-      });
+  // 2. Discovery Tabs Active State
+  const tabs = document.querySelectorAll('.tab-link');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
     });
   });
 
-  // 3. Smooth scrolling for internal anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      const targetId = this.getAttribute('href');
-      if (targetId && targetId !== '#') {
-        const targetEl = document.querySelector(targetId);
-        if (targetEl) {
-          e.preventDefault();
-          targetEl.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-        }
+  // 3. Smooth Cinematic Scroll Reveal for Sections (one-time gentle rise)
+  const observerOptions = {
+    threshold: 0.15,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('section-revealed');
+        observer.unobserve(entry.target);
       }
     });
+  }, observerOptions);
+
+  const sectionsToReveal = document.querySelectorAll('section:not(.hero-section), .final-cta-section');
+  sectionsToReveal.forEach(sec => {
+    sec.style.opacity = '0';
+    sec.style.transform = 'translateY(28px)';
+    sec.style.transition = 'opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1)';
+    revealObserver.observe(sec);
   });
 
-  // 4. Poster click shortcut -> smooth scroll to download section
-  posterBoxes.forEach(poster => {
-    poster.addEventListener('click', () => {
-      const dlSection = document.getElementById('download');
-      if (dlSection) {
-        dlSection.scrollIntoView({ behavior: 'smooth' });
+  window.addEventListener('scroll', () => {
+    sectionsToReveal.forEach(sec => {
+      if (sec.classList.contains('section-revealed')) {
+        sec.style.opacity = '1';
+        sec.style.transform = 'translateY(0)';
       }
     });
-  });
-
+  }, { passive: true });
 });
