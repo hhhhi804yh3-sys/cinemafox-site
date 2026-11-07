@@ -60,12 +60,15 @@ document.addEventListener('DOMContentLoaded', () => {
     revealObserver.observe(sec);
   });
 
-  window.addEventListener('scroll', () => {
-    sectionsToReveal.forEach(sec => {
-      if (sec.classList.contains('section-revealed')) {
-        sec.style.opacity = '1';
-        sec.style.transform = 'translateY(0)';
-      }
+  // 4. Dynamic Mobile Optimization (Hide Windows PC buttons on mobile)
+  function applyMobileRules() {
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) 
+      || (window.innerWidth <= 768 && ('ontouchstart' in window || navigator.maxTouchPoints > 0));
+    
+    document.querySelectorAll('.btn-pc, .btn-pc-download').forEach(btn => {
+      btn.style.display = isMobile ? 'none' : '';
     });
-  }, { passive: true });
+  }
+  applyMobileRules();
+  window.addEventListener('resize', applyMobileRules);
 });
