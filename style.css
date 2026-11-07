@@ -64,15 +64,15 @@ html {
 body {
   position: relative;
   min-height: 100vh;
-  background-color: var(--bg-deep-space);
+  background-color: #060913;
   background-image: 
-    radial-gradient(ellipse 90% 45% at 50% 0%, rgba(112, 0, 255, 0.32) 0%, rgba(0, 117, 255, 0.16) 45%, transparent 75%),
-    radial-gradient(circle at 85% 35%, rgba(155, 75, 255, 0.08) 0%, transparent 40%),
-    url('assets/images/hbo_stars.png');
-  background-size: cover, cover, cover;
-  background-attachment: fixed;
-  background-position: top center, top right, center top;
-  background-repeat: no-repeat, no-repeat, repeat;
+    radial-gradient(ellipse 90% 50% at 50% 0%, rgba(229, 9, 20, 0.22) 0%, rgba(112, 0, 255, 0.14) 45%, transparent 75%),
+    radial-gradient(circle at 85% 25%, rgba(0, 198, 255, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 15% 35%, rgba(229, 9, 20, 0.08) 0%, transparent 40%);
+  background-size: 100% 900px, 700px 700px, 700px 700px;
+  background-attachment: scroll, fixed, fixed;
+  background-position: top center, top right, top left;
+  background-repeat: no-repeat;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -298,14 +298,15 @@ body {
 
 .brand-highlight {
   color: #FFFFFF;
-  text-shadow: 0 0 30px rgba(155, 75, 255, 0.6);
+  text-shadow: 0 0 35px rgba(229, 9, 20, 0.55);
 }
 
 .hbo-gradient-text {
-  background: linear-gradient(135deg, #FFFFFF 15%, #C28BFF 60%, #00F0FF 100%);
+  background: linear-gradient(135deg, #FFFFFF 15%, #FF5A43 65%, #E50914 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+  text-shadow: 0 6px 28px rgba(0, 0, 0, 0.6);
 }
 
 .hero-subtitle {
