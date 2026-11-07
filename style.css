@@ -1846,3 +1846,192 @@ body {
   font-weight: 500;
 }
 
+
+
+/* ===================================================
+   FIGMA CINEMATIC ANIMATIONS (5 SPECIFIC REQUIREMENTS)
+   =================================================== */
+
+/* 1. Page Load Hero Entrance (500-700ms staggered entrance) */
+@keyframes heroCinematicEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-pill {
+  animation: heroCinematicEntrance 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.08s both;
+}
+.hero-title {
+  animation: heroCinematicEntrance 0.55s cubic-bezier(0.16, 1, 0.3, 1) 0.20s both;
+}
+.hero-subtitle {
+  animation: heroCinematicEntrance 0.55s cubic-bezier(0.16, 1, 0.3, 1) 0.34s both;
+}
+.hero-actions-clean {
+  animation: heroCinematicEntrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.48s both;
+}
+.hero-telegram-wrap {
+  animation: heroCinematicEntrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.60s both;
+}
+.hero-badges-row {
+  animation: heroCinematicEntrance 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.70s both;
+}
+
+/* 2. Scroll-Triggered Section Reveals (Soft fade + slight rise once only) */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal-on-scroll.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 3. Movie Posters: Subtle hover scale without expanding to overlap neighbors */
+.poster-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.28s cubic-bezier(0.2, 0, 0, 1), 
+              box-shadow 0.28s ease, 
+              border-color 0.28s ease;
+  transform: scale(1);
+  will-change: transform;
+}
+.poster-card:hover {
+  transform: translateY(-4px) scale(1.025) !important;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 0 18px rgba(229, 9, 20, 0.3);
+  border-color: rgba(229, 9, 20, 0.4);
+  z-index: 2;
+}
+
+/* 4. Download Buttons: Subtle color shift, slight elevation on hover, tactile click */
+.btn-hero-primary, 
+.btn-hero-windows, 
+.btn-nav-download, 
+.btn-hbo-windows, 
+.btn-action-download {
+  transition: transform 0.22s cubic-bezier(0.2, 0, 0, 1), 
+              box-shadow 0.22s ease, 
+              background 0.22s ease, 
+              border-color 0.22s ease;
+  will-change: transform;
+}
+.btn-hero-primary:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #FF1A26 0%, #B8000A 100%) !important;
+  box-shadow: 0 12px 30px rgba(229, 9, 20, 0.5);
+}
+.btn-hero-windows:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #1084E3 0%, #005A9E 100%) !important;
+  box-shadow: 0 12px 30px rgba(0, 120, 215, 0.5);
+}
+.btn-hero-primary:active, 
+.btn-hero-windows:active, 
+.btn-nav-download:active, 
+.btn-hbo-windows:active, 
+.btn-action-download:active {
+  transform: translateY(-1px) scale(0.98) !important;
+  transition-duration: 0.08s;
+}
+
+/* 5. FAQ Accordion (Smooth slide open & close in 200-250ms) */
+.faq-section {
+  padding: 70px 0 60px;
+  position: relative;
+  z-index: 2;
+}
+.faq-accordion {
+  max-width: 820px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.faq-item {
+  background: rgba(13, 17, 30, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: border-color 220ms ease, background 220ms ease, box-shadow 220ms ease;
+}
+.faq-item:hover {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(18, 24, 40, 0.82);
+}
+.faq-item.active {
+  border-color: rgba(229, 9, 20, 0.45);
+  background: rgba(20, 26, 44, 0.92);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(229, 9, 20, 0.15);
+}
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 22px;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 15.5px;
+  font-weight: 800;
+  text-align: right;
+  cursor: pointer;
+  outline: none;
+  direction: rtl;
+}
+.faq-q-title {
+  flex: 1;
+  text-align: right;
+  line-height: 1.45;
+}
+.faq-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  color: #9DB0CE;
+  transition: transform 220ms cubic-bezier(0.2, 0, 0, 1), background 220ms ease, color 220ms ease;
+  flex-shrink: 0;
+  margin-right: 14px;
+}
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+  background: rgba(229, 9, 20, 0.22);
+  color: #FF4D58;
+}
+.faq-answer-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 220ms cubic-bezier(0.2, 0, 0, 1);
+}
+.faq-item.active .faq-answer-wrapper {
+  grid-template-rows: 1fr;
+}
+.faq-answer {
+  overflow: hidden;
+}
+.faq-answer p {
+  padding: 0 22px 20px 22px;
+  color: #9DB0CE;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+}
